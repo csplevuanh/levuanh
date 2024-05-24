@@ -1,5 +1,5 @@
 body {
-    font-family: "Courier New", Courier, monospace; /* Monospaced font */
+    font-family: 'Comfortaa', 'Delius', 'Frangelica', sans-serif; /* Monospaced font */
     color: black; /* Set primary font color to black */
     margin: 0;
     padding: 0;
@@ -85,11 +85,13 @@ section h2 {
     font-size: 1.8em;
     border-bottom: 2px solid #444c56; /* Darker border for section headings */
     padding-bottom: 10px;
+    font-family: 'Frangelica', sans-serif;
 }
 
 section p, section ul {
     font-size: 1.1em;
     text-align: justify;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 section ul {
@@ -138,6 +140,7 @@ footer {
 
 .description p {
     margin-bottom: 20px;
+    font-family: 'Delius', sans-serif;
 }
 
 .description a {
@@ -163,4 +166,3 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
-
