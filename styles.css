@@ -156,12 +156,15 @@ footer {
 
 .my-world-gallery {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap as needed */
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .image {
-    flex: 0 0 48%;
+    flex: 0 0 48%; /* Ensures two images per row with some space between */
+    margin-bottom: 20px; /* Add space between rows */
 }
 
 .image img {
