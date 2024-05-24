@@ -43,30 +43,6 @@ body::after {
     font-size: 3em; /* Double the size of the current icons */
 }
 
-.search-bar {
-    display: flex;
-    align-items: center;
-}
-
-#search-input {
-    border: none;
-    outline: none;
-    padding: 5px 10px;
-    width: 0; /* Initial width */
-    transition: width 0.3s ease;
-}
-
-#search-input:focus {
-    width: 150px; /* Expanded width */
-}
-
-#search-icon {
-    cursor: pointer;
-    color: #666;
-    font-size: 1.2em;
-    margin-right: 5px;
-}
-
 header, nav {
     background: #61afef; /* Light blue background for header and navigation */
     color: #000; /* Black font color */
