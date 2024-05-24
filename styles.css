@@ -1,18 +1,18 @@
 body {
-    font-family: "Open Sans", Verdana, Arial, sans-serif;
-    background-color: #f0f0f0; /* Light grey background */
-    color: #333;
+    font-family: "Courier New", Courier, monospace; /* Monospaced font */
+    color: #abb2bf; /* Light grey for text */
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background: #282c34; /* Dark background */
 }
 
 header {
-    background: #007bff; /* Blue header */
-    color: #fff;
+    background: #21252b; /* Darker background for header */
+    color: #61afef; /* Light blue text */
     padding: 20px 0;
     text-align: center;
-    border-bottom: 5px solid #0056b3; /* Darker blue border */
+    border-bottom: 5px solid #282c34; /* Dark border */
 }
 
 header h1 {
@@ -27,8 +27,8 @@ header h2 {
 }
 
 nav {
-    background: #0056b3; /* Dark blue navigation bar */
-    color: #fff;
+    background: #21252b; /* Dark background for navigation */
+    color: #61afef; /* Light blue text */
     text-align: center;
     padding: 10px 0;
 }
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #61afef; /* Light blue text */
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -58,15 +58,16 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #fff; /* White background for sections */
-    border: 1px solid #ccc; /* Light grey border */
+    background-color: #282c34; /* Dark background for sections */
+    border: 1px solid #444c56; /* Darker border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     font-size: 1.8em;
-    border-bottom: 2px solid #007bff; /* Blue border for section headings */
+    border-bottom: 2px solid #444c56; /* Darker border for section headings */
     padding-bottom: 10px;
+    color: #61afef; /* Light blue text */
 }
 
 section p, section ul {
@@ -82,25 +83,16 @@ section ul {
 section img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ccc; /* Light grey border */
+    border: 1px solid #444c56; /* Darker border */
     margin: 10px 0;
 }
 
 footer {
-    background: #007bff; /* Blue footer */
-    color: #fff;
+    background: #21252b; /* Dark background for footer */
+    color: #61afef; /* Light blue text */
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <!-- Add more links for other pages as needed -->
-    </ul>
-</nav>
