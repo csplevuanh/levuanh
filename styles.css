@@ -158,43 +158,50 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* Adjust gap as needed */
-    justify-content: space-between;
+    justify-content: center; /* Center the images horizontally */
     margin-top: 20px;
 }
 
 .image {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex: 1 1 100%; /* Make images take full width by default */
+    max-width: calc(50% - 10px); /* Limiting images to half width with gap of 20px */
 }
 
-.image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.image p {
-    margin-top: 5px;
-    text-align: center;
+.image:nth-child(odd) {
+    flex-basis: 100%; /* Make odd-indexed images take full width */
 }
 
 @media (min-width: 768px) {
     .image {
-        flex: 0 0 calc(50% - 10px); /* 50% width with gap of 20px */
+        max-width: calc(50% - 10px); /* Limiting images to half width with gap of 20px */
+    }
+
+    .image:nth-child(odd) {
+        flex-basis: 100%; /* Make odd-indexed images take full width */
+    }
+
+    .image:nth-child(2n) {
+        flex-basis: calc(50% - 10px); /* Make even-indexed images take half width */
     }
 }
 
 @media (min-width: 992px) {
-    .image {
-        flex: 1 1 auto; /* Allow images to take up full width */
-        max-width: calc(33.33% - 20px); /* Limiting to one-third width with gap of 20px */
+    .image:nth-child(odd) {
+        flex-basis: calc(33.33% - 10px); /* Make odd-indexed images take one-third width */
+    }
+
+    .image:nth-child(2n) {
+        flex-basis: calc(33.33% - 10px); /* Make even-indexed images take one-third width */
     }
 }
 
 @media (min-width: 1200px) {
-    .image {
-        max-width: calc(25% - 20px); /* Limiting to one-fourth width with gap of 20px */
+    .image:nth-child(odd) {
+        flex-basis: calc(25% - 10px); /* Make odd-indexed images take one-fourth width */
+    }
+
+    .image:nth-child(2n) {
+        flex-basis: calc(25% - 10px); /* Make even-indexed images take one-fourth width */
     }
 }
 
