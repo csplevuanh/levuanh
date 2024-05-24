@@ -178,7 +178,7 @@ footer {
 }
 
 #news {
-    max-width: 50%; /* Limiting to half of the available width */
+    /* No max-width specified */
     margin: auto;
 }
 
