@@ -98,8 +98,8 @@ footer {
 }
 
 .portrait {
-    width: 150px; /* Adjust the width as needed */
-    height: 150px; /* Adjust the height to match the width */
+    width: 250px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height to match the width */
     object-fit: cover; /* Ensures the image covers the entire container */
 }
 
