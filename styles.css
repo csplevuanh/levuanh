@@ -91,6 +91,9 @@ footer {
 
 .left-section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-section {
@@ -98,8 +101,8 @@ footer {
 }
 
 .portrait {
-    width: 250px; /* Adjust the width as needed */
-    height: 250px; /* Adjust the height to match the width */
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height to match the width */
     object-fit: cover; /* Ensures the image covers the entire container */
 }
 
