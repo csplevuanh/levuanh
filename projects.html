@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Vũ-Anh Lê</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Frangelica&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Vũ-Anh Lê</h1>
+                <h1>黎武煐</h1>
+                <h1>MAKE SCIENCE EASIER AND MORE INTERPRETABLE</h1>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/luffyle/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://orcid.org/0009-0000-1904-5186" target="_blank"><i class="fab fa-orcid"></i></a>
+                <a href="https://github.com/csplevuanh" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="my-world.html">My World</a></li>
+        </ul>
+    </nav>
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>(1) Understand Time-to-MCL Heterogeneity in Groundwater Wells</h3>
+        <p>Status: In Progress</p>
+        <p>Timeline: May 2024 - Present</p>
+        <p>We are investigating the factors that explain the heterogeneity (i.e., variability) in Time-to-MCL (Maximum Concentration Limits) for groundwater wells. Heterogeneity in this context refers to the differences in the time it takes for various groundwater wells to reach the maximum allowable concentration of contaminants. Understanding this variability is crucial because it can help us predict which wells are at greater risk of contamination and require more frequent monitoring or early intervention.</p>
+        <ul>
+            <li>We will gather environmental well data, including variables such as aquifer type, screen zone, geographic coordinates, and average concentration in 2024;</li>
+            <li>Employ a Random Forest regression to model Time2MCL as a function of the collected predictors;</li>
+            <li>Build on prior research utilizing Kalman filters to predict pollutant levels;</li>
+            <li>Create informative plots to visualize the trends and forecasted concentrations.</li>
+        </ul>
+        <img src="image-project-a.jpg" alt="Project A Image">
+        <h3>(2) Assessing the Site Closure Time Frame for the Soil and Groundwater Contaminated Sites</h3>
+        <p>Status: Completed</p>
+        <p>Timeline: Feb 2024 - April 2024</p>
+        <p>We're looking at the well data from a radioactive waste clean-up site (SRS F-Area) to predict how long it will take for pollution levels to drop to reach regulatory/safe limits (Maximum Concentration Limits - MCLs).</p>
+        <ul>
+            <li>Cleaned and preprocessed environmental well data from the SRS F-Area;</li>
+            <li>Identified trends and predict time-to-MCL using linear regression with uncertainties;</li>
+            <li>Used a spatial extrapolation technique to predict the overall cleanup timeline;</li>
+            <li>Generated informative plots to visualize concentration trends;</li>
+            <li>Plotted the wells with decreasing trends on a real-time map.</li>
+        </ul>
+        <img src="image-project-b.jpg" alt="Project B Image">
+    </section>
+    <footer>
+        <p>&copy; 2024 Vũ-Anh Lê. All rights reserved.</p>
+    </footer>
+</body>
+</html>
