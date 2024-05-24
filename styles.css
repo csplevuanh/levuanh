@@ -84,3 +84,44 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.about-container {
+    display: flex;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.middle-section {
+    flex: 0.05; /* Adjust as needed for the width of the divider */
+    border-right: 2px solid #61afef; /* Example border color */
+}
+
+.right-section {
+    flex: 1;
+}
+
+.portrait {
+    width: 100%;
+    border-radius: 50%; /* Makes the image round */
+}
+
+.divider {
+    height: 2px;
+    background-color: #61afef; /* Example color for the divider */
+    margin: 20px 0;
+}
+
+.description {
+    margin-top: 20px;
+    color: #abb2bf; /* Light grey text */
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+
+.description a {
+    color: #61afef; /* Light blue links */
+}
