@@ -163,16 +163,25 @@ footer {
 }
 
 .image {
-    flex: 0 0 48%; /* Ensures two images per row with some space between */
+    flex: 0 0 calc(50% - 10px); /* Adjust to two images per row with gap */
     margin-bottom: 20px; /* Add space between rows */
+    position: relative;
 }
 
 .image img {
     width: 100%;
+    height: auto; /* Maintain aspect ratio */
     border-radius: 8px;
 }
 
 .image p {
     margin-top: 5px;
     text-align: center;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 5px 10px;
+    border-radius: 5px;
 }
