@@ -26,6 +26,10 @@ body::after {
     margin: 0 auto; /* Center the header content */
 }
 
+.header-text h1:last-of-type {
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -169,4 +173,3 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
-
