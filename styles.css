@@ -163,8 +163,30 @@ footer {
 }
 
 .image {
-    flex: 1 1 100%; /* Make images take full width by default */
-    max-width: calc(50% - 10px); /* Limiting images to half width with gap of 20px */
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.image-container .description {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
 }
 
 .image:nth-child(odd) {
