@@ -10,7 +10,7 @@ body {
 
 body::after {
     content: "";
-    background: url('doraemon.jpg') center center / cover no-repeat;
+    background: url('path/to/your/doraemon.jpg') center center / cover no-repeat;
     opacity: 0.2; /* Adjust the opacity to make it lightly visible */
     top: 0;
     left: 0;
@@ -20,6 +20,27 @@ body::after {
     z-index: -1;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #000; /* Black font color for social media icons */
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
 header, nav {
     background: #61afef; /* Light blue background for header and navigation */
     color: #000; /* Black font color */
@@ -27,7 +48,6 @@ header, nav {
 
 header {
     padding: 20px 0;
-    text-align: center;
     border-bottom: 5px solid #fff; /* White border */
 }
 
@@ -147,4 +167,3 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
-
