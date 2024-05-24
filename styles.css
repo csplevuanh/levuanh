@@ -93,11 +93,6 @@ footer {
     flex: 1;
 }
 
-.middle-section {
-    flex: 0.05; /* Adjust as needed for the width of the divider */
-    border-right: 2px solid #61afef; /* Example border color */
-}
-
 .right-section {
     flex: 1;
 }
@@ -107,15 +102,9 @@ footer {
     border-radius: 50%; /* Makes the image round */
 }
 
-.divider {
-    height: 2px;
-    background-color: #61afef; /* Example color for the divider */
-    margin: 20px 0;
-}
-
 .description {
     margin-top: 20px;
-    color: #abb2bf; /* Light grey text */
+    color: black; /* Change to black color */
 }
 
 .description p {
