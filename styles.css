@@ -163,18 +163,39 @@ footer {
 }
 
 .image {
-    flex: 0 0 48%; /* Ensures two images per row with some space between */
-    margin-bottom: 20px; /* Add space between rows */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .image img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
 .image p {
     margin-top: 5px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .image {
+        flex: 0 0 calc(50% - 10px); /* 50% width with gap of 20px */
+    }
+}
+
+@media (min-width: 992px) {
+    .image {
+        flex: 1 1 auto; /* Allow images to take up full width */
+        max-width: calc(33.33% - 20px); /* Limiting to one-third width with gap of 20px */
+    }
+}
+
+@media (min-width: 1200px) {
+    .image {
+        max-width: calc(25% - 20px); /* Limiting to one-fourth width with gap of 20px */
+    }
 }
 
 #news {
