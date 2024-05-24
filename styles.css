@@ -176,3 +176,56 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
+
+#news {
+    max-width: 50%; /* Limiting to half of the available width */
+    margin: auto;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    max-height: 300px; /* Limiting the height */
+    position: relative;
+}
+
+.news-item {
+    display: flex;
+    gap: 20px;
+}
+
+.news-date {
+    flex: 0 0 30%; /* Left column width */
+}
+
+.news-description {
+    flex: 1; /* Right column width */
+}
+
+.scroll-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #f1f1f1; /* Light gray background */
+    border-radius: 5px;
+}
+
+.scroll-bar:hover {
+    background-color: #ddd; /* Darker gray on hover */
+}
+
+.scroll-bar::after {
+    content: "";
+    display: block;
+    background-color: #888; /* Gray scroll handle */
+    border-radius: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
