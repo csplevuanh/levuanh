@@ -1,98 +1,84 @@
+/* Common styles */
 body {
     font-family: "Courier New", Courier, monospace; /* Monospaced font */
-    color: #abb2bf; /* Light grey for text */
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background: #282c34; /* Dark background */
+    transition: color 0.5s, background-color 0.5s; /* Smooth transition for mode change */
 }
 
-header {
-    background: #21252b; /* Darker background for header */
+header, nav, section, footer {
+    transition: color 0.5s; /* Smooth transition for mode change */
+}
+
+/* Dark Mode */
+body.dark {
+    color: #fff; /* White font color */
+    background: #1e1e1e; /* Darker background */
+}
+
+body.dark header, 
+body.dark nav, 
+body.dark section, 
+body.dark footer {
     color: #61afef; /* Light blue text */
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 5px solid #282c34; /* Dark border */
+    background: #21252b; /* Dark background for sections */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+/* Light Mode */
+body.light {
+    color: #000; /* Black font color */
+    background: #f8f9fa; /* Light background */
 }
 
-header h2 {
-    margin: 0;
-    font-size: 1.2em;
-    font-style: italic;
+body.light header, 
+body.light nav, 
+body.light section, 
+body.light footer {
+    color: #616161; /* Grey text */
+    background: #e9ecef; /* Lighter background for sections */
 }
 
-nav {
-    background: #21252b; /* Dark background for navigation */
-    color: #61afef; /* Light blue text */
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #61afef; /* Light blue text */
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #282c34; /* Dark background for sections */
-    border: 1px solid #444c56; /* Darker border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    font-size: 1.8em;
-    border-bottom: 2px solid #444c56; /* Darker border for section headings */
-    padding-bottom: 10px;
-    color: #61afef; /* Light blue text */
-}
-
-section p, section ul {
-    font-size: 1.1em;
-    text-align: justify;
-}
-
-section ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-section img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #444c56; /* Darker border */
-    margin: 10px 0;
-}
-
-footer {
-    background: #21252b; /* Dark background for footer */
-    color: #61afef; /* Light blue text */
-    text-align: center;
-    padding: 10px 0;
+/* Portrait */
+#portrait {
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* Mode Toggle Button */
+#mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #61afef; /* Light blue background */
+    color: #fff; /* White font color */
+    cursor: pointer;
+}
+
+/* Typing Animation */
+#typing-gif {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0;
+    animation: typing 5s infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
