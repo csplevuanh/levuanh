@@ -1,35 +1,24 @@
 body {
     font-family: "Courier New", Courier, monospace; /* Monospaced font */
-    color: #abb2bf; /* Light grey for text */
+    color: black; /* Set primary font color to black */
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #282c34; /* Dark background */
+    background: #fff; /* White background */
+}
+
+header, nav {
+    background: #61afef; /* Light blue background for header and navigation */
+    color: #000; /* Black font color */
 }
 
 header {
-    background: #21252b; /* Darker background for header */
-    color: #61afef; /* Light blue text */
     padding: 20px 0;
     text-align: center;
-    border-bottom: 5px solid #282c34; /* Dark border */
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header h2 {
-    margin: 0;
-    font-size: 1.2em;
-    font-style: italic;
+    border-bottom: 5px solid #fff; /* White border */
 }
 
 nav {
-    background: #21252b; /* Dark background for navigation */
-    color: #61afef; /* Light blue text */
-    text-align: center;
     padding: 10px 0;
 }
 
@@ -45,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #61afef; /* Light blue text */
+    color: #000; /* Black font color for navigation links */
     text-decoration: none;
     font-size: 1.1em;
 }
@@ -58,8 +47,8 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #282c34; /* Dark background for sections */
-    border: 1px solid #444c56; /* Darker border */
+    background-color: #fff; /* White background for sections */
+    border: 1px solid #fff; /* White border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -67,7 +56,6 @@ section h2 {
     font-size: 1.8em;
     border-bottom: 2px solid #444c56; /* Darker border for section headings */
     padding-bottom: 10px;
-    color: #61afef; /* Light blue text */
 }
 
 section p, section ul {
@@ -83,22 +71,16 @@ section ul {
 section img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #444c56; /* Darker border */
+    border: 1px solid #fff; /* White border */
     margin: 10px 0;
 }
 
 footer {
-    background: #21252b; /* Dark background for footer */
-    color: #61afef; /* Light blue text */
+    background: #61afef; /* Light blue background for footer */
+    color: #000; /* Black font color for footer */
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-/* Modification for embedded phrase with link */
-a {
-    color: white; /* Clear white color for embedded link */
-    font-weight: bold; /* Bold style */
 }
