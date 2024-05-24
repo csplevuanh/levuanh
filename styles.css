@@ -76,13 +76,9 @@ section img {
 }
 
 footer {
-    background: #61afef; /* Light blue background for footer */
-    color: #000; /* Black font color for footer */
+    padding-top: 50px; /* Adjust as needed to create enough space for the footnote */
+    background-color: #f8f9fa; /* Light background color for the footer */
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .about-container {
