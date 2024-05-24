@@ -5,12 +5,19 @@ body {
     padding: 0;
     line-height: 1.6;
     background: #fff; /* White background */
-    background-image: url('doraemon.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Makes the background unmovable */
-    background-position: center;
-    opacity: 0.2; /* Adjust transparency */
+    position: relative;
+}
+
+body::after {
+    content: "";
+    background: url('path/to/your/doraemon.jpg') center center / cover no-repeat;
+    opacity: 0.2; /* Adjust the opacity to make it lightly visible */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 header, nav {
@@ -140,3 +147,4 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
+
