@@ -21,24 +21,20 @@ body::after {
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-text {
     text-align: center;
 }
 
 .social-icons {
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .social-icons a {
     color: #000; /* Black font color for social media icons */
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 3em; /* Double the size of the current icons */
 }
 
 header, nav {
@@ -167,3 +163,4 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
+
