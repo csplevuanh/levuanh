@@ -118,3 +118,23 @@ footer {
 .description a {
     color: #61afef; /* Light blue links */
 }
+
+.my-world-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image {
+    flex: 0 0 48%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image p {
+    margin-top: 5px;
+    text-align: center;
+}
