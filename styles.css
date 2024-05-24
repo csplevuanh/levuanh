@@ -5,6 +5,12 @@ body {
     padding: 0;
     line-height: 1.6;
     background: #fff; /* White background */
+    background-image: url('doraemon.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Makes the background unmovable */
+    background-position: center;
+    opacity: 0.2; /* Adjust transparency */
 }
 
 header, nav {
@@ -47,7 +53,7 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #fff; /* White background for sections */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
     border: 1px solid #fff; /* White border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
