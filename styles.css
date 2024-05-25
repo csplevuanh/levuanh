@@ -10,7 +10,7 @@ body {
 
 body::after {
     content: "";
-    background: url('doraemon.jpg') center center / cover no-repeat;
+    background: url('doraemon.jpg.jpg') center center / cover no-repeat;
     opacity: 0.2; /* Adjust the opacity to make it lightly visible */
     top: 0;
     left: 0;
