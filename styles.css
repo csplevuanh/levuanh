@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Old+Style&family=EB+Garamond&display=swap');
+
 body {
-    font-family: 'Comfortaa', 'Delius', 'Frangelica', sans-serif; /* Monospaced font */
+    font-family: 'Goudy Old Style', 'EB Garamond', serif; /* Renaissance-style fonts */
     color: black; /* Set primary font color to black */
     margin: 0;
     padding: 0;
@@ -92,13 +94,13 @@ section h2 {
     font-size: 1.8em;
     border-bottom: 2px solid #444c56; /* Darker border for section headings */
     padding-bottom: 10px;
-    font-family: 'Frangelica', sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 
 section p, section ul {
     font-size: 1.1em;
     text-align: justify;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Goudy Old Style', serif;
 }
 
 section ul {
@@ -147,7 +149,7 @@ footer {
 
 .description p {
     margin-bottom: 20px;
-    font-family: 'Delius', sans-serif;
+    font-family: 'Goudy Old Style', serif;
 }
 
 .description a {
