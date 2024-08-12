@@ -46,7 +46,7 @@ body::after {
 }
 
 header, nav {
-    background: #efbf38; /* Light brown background for header and navigation */
+    background: #f1f7fb; /* Light diamond */
     color: #000; /* Black font color */
 }
 
