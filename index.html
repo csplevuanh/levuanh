@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- ===== Header ===== -->
     <header>
         <div class="header-content">
             <div class="header-text">
@@ -16,22 +17,26 @@
             </div>
             <div class="header-icons">
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/luffyle/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://orcid.org/0009-0000-1904-5186" target="_blank"><i class="fab fa-orcid"></i></a>
-                    <a href="https://github.com/csplevuanh" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/luffyle/"      target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://orcid.org/0009-0000-1904-5186"     target="_blank"><i class="fab fa-orcid"></i></a>
+                    <a href="https://github.com/csplevuanh"             target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- ===== Navigation ===== -->
     <nav>
         <ul>
-            <li><a href="index.html">About</a></li>
+            <li><a href="index.html"       class="active">About</a></li>
             <li><a href="cv-resume.html">CV/Resume</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="publications.html">Publications</a></li>
             <li><a href="my-world.html">My World</a></li>
         </ul>
     </nav>
+
+    <!-- ===== About ===== -->
     <section id="about">
         <div class="about-container">
             <div class="left-section">
@@ -49,16 +54,17 @@
                 </ul>
                 <p><strong>Affiliation:</strong></p>
                 <ul>
-                    <li>Student Researcher, B.S. @Google</li>
+                    <li>Student Researcher, B.S. @ Google</li>
                 </ul>
             </div>
         </div>
+
         <div class="description">
+            <p>I am a Student Researcher (Research Intern) at Google.</p>
             <p>
-                I am a Student Researcher (Research Intern) at Google.
-            </p>
-            <p>
-                My work lies at the intersection of the theory of machine learning and AI4science. I study how the core principles of logic, mathematics, and algorithms can build efficient, interpretable, and provable AI systems for real-world reasoning tasks and scientific inquiry.
+                My work lies at the intersection of theory of machine learning and AI for Science. 
+                I study how the core principles of logic, mathematics, and algorithms can build efficient, interpretable, 
+                and provable AI systems for real-world reasoning tasks and scientific inquiry.
             </p>
             <ul>
                 <li><strong>Theoretical ML:</strong> Designing mathematically grounded models that unify logic, learning, and computation.</li>
@@ -66,35 +72,87 @@
                 <li><strong>AI for Science:</strong> Using AI to accelerate scientific modeling, theorem discovery, and empirical understanding.</li>
             </ul>
             <p>
-                My academic path started with a Bachelor of Science (B.Sc.) degree in Mathematics at Beloit College, followed by research internships at <strong>Google Research</strong>, <strong>MIT</strong>, and <strong>The University of Tokyo</strong>. These experiences shaped my long-term goal: to push the frontier of foundational AI systems.
+                My academic path started with a Bachelor of Science in Mathematics at Beloit College, 
+                followed by research internships at <strong>Google Research</strong>, <strong>MIT</strong>, and 
+                <strong>The University of Tokyo</strong>. These experiences shaped my long-term goal: 
+                to push the frontier of foundational AI systems.
             </p>
         </div>
     </section>
+
+    <!-- ===== Snapshot: Skills & Projects (NEW) ===== -->
+    <section id="snapshot">
+        <h2>Snapshot · Skills & Recent Projects</h2>
+
+        <div class="snapshot-container">
+            <!-- thumbnail -->
+            <div class="snapshot-img">
+                <a href="projects.html">
+                    <img src="fig_multiscale_error.png" 
+                         alt="Multi-Scale Error surface" 
+                         class="shadow">
+                </a>
+            </div>
+
+            <!-- text -->
+            <div class="snapshot-text">
+                <h3>Core Skills</h3>
+                <ul>
+                    <li>Computational mathematics e.g. functional & harmonic analysis for ML</li>
+                    <li>Neural-operator design & compression (TinyML)</li>
+                    <li>GPU / HPC workflows (CUDA · TACC)</li>
+                    <li>Scientific-ML tooling (PyTorch, JAX, TVM-micro)</li>
+                </ul>
+
+                <h3>Flagship Projects</h3>
+                <ol>
+                    <li><a href="projects.html#projects">(1) Neural-Operator PDE Solver</a></li>
+                    <li><a href="projects.html#projects">(2) Mathematical Analysis of Neural Operators</a></li>
+                    <li><a href="projects.html#projects">(3) Optimal Design of Neural Operators</a></li>
+                </ol>
+
+                <p class="more-link">
+                    ➜ <a href="projects.html">See full project gallery</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== News ===== -->
     <section id="news">
         <h2>News</h2>
         <div class="news-container">
             <div class="news-item">
-                <div class="news-date">Nov 12th, 2024</div>
-                <div class="news-description">Our paper <a href="https://arxiv.org/abs/2411.01763">"How Analysis Can Teach Us the Optimal Way to Design Neural Operators"</a> was accepted to the journal Proceedings of International Mathematical Sciences!</div>
+                <div class="news-date">Nov 12, 2024</div>
+                <div class="news-description">
+                    Our paper&nbsp;
+                    <a href="https://arxiv.org/abs/2411.01763">
+                        “How Analysis Can Teach Us the Optimal Way to Design Neural Operators”
+                    </a>
+                    was accepted to <em>Proceedings of International Mathematical Sciences</em>!
+                </div>
             </div>
             <div class="news-item">
-                <div class="news-date">March 15th, 2024</div>
-                <div class="news-description">Excited to have joined the MIT Summer Research Program 2024!</div>
+                <div class="news-date">Mar 15, 2024</div>
+                <div class="news-description">
+                    Excited to have joined the MIT Summer Research Program 2024!
+                </div>
             </div>
         </div>
         <div class="scroll-bar"></div>
     </section>
+
+    <!-- ===== Publications ===== -->
     <section id="publications">
         <h2>Publications</h2>
-        
-        <p><strong>1. </strong><strong>Le, Vu Anh</strong>, and Dik, Mehmet. “Topology-Preserving Scaling in Data Augmentation.” <em>arXiv</em>, (Nov 2024). <a href="https://doi.org/10.48550/arXiv.2411.19512">https://doi.org/10.48550/arXiv.2411.19512</a></p>
-        
-        <p><strong>2. </strong><strong>Le, Vu Anh</strong>, and Dik, Mehmet. “The Stability of Persistence Diagrams Under Non-Uniform Scaling.” <em>arXiv</em>, (Nov 2024). <a href="https://doi.org/10.48550/arXiv.2411.16126">https://doi.org/10.48550/arXiv.2411.16126</a></p>
-        
-        <p><strong>3. </strong><strong>Le, Vu Anh</strong>, and Dik, Mehmet. “How Analysis Can Teach Us the Optimal Way to Design Neural Operators.” <em>Proceedings of International Mathematical Sciences</em>, (Nov 2024). <a href="https://doi.org/10.47086/pims.1579364">https://doi.org/10.47086/pims.1579364</a></p>
-        
-        <p><strong>4. </strong><strong>Le, Vu Anh</strong>, and Dik, Mehmet. “A Mathematical Analysis of Neural Operator Behaviors.” <em>arXiv</em>, (Oct 2024). (Accepted as a chapter to the book issue <em>Advances in Quantum Calculus and Functional Analysis</em>, CRC Press, Taylor & Francis Group). <a href="https://doi.org/10.48550/arXiv.2410.21481">https://doi.org/10.48550/arXiv.2410.21481</a></p>
+
+        <p><strong>1.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “Topology-Preserving Scaling in Data Augmentation.” <em>arXiv</em> (Nov 2024). <a href="https://doi.org/10.48550/arXiv.2411.19512">https://doi.org/10.48550/arXiv.2411.19512</a></p>
+        <p><strong>2.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “The Stability of Persistence Diagrams Under Non-Uniform Scaling.” <em>arXiv</em> (Nov 2024). <a href="https://doi.org/10.48550/arXiv.2411.16126">https://doi.org/10.48550/arXiv.2411.16126</a></p>
+        <p><strong>3.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “How Analysis Can Teach Us the Optimal Way to Design Neural Operators.” <em>Proceedings of International Mathematical Sciences</em> (Nov 2024). <a href="https://doi.org/10.47086/pims.1579364">https://doi.org/10.47086/pims.1579364</a></p>
+        <p><strong>4.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “A Mathematical Analysis of Neural Operator Behaviors.” <em>arXiv</em> (Oct 2024). (Accepted as a chapter in <em>Advances in Quantum Calculus and Functional Analysis</em>, CRC Press). <a href="https://doi.org/10.48550/arXiv.2410.21481">https://doi.org/10.48550/arXiv.2410.21481</a></p>
     </section>
+
+    <!-- ===== Footer ===== -->
     <footer>
         <p>&copy; 2024 Vũ-Anh Lê. All rights reserved.</p>
     </footer>
