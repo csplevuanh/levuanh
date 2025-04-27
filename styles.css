@@ -291,3 +291,29 @@ footer {
     left: 0;
     cursor: pointer;
 }
+
+/* === Snapshot section === */
+#snapshot {
+    margin: 3rem auto;
+    max-width: 960px;
+}
+.snapshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.snapshot-img img {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+.snapshot-text {
+    flex: 1;
+    min-width: 260px;
+}
+.shadow {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.more-link a {
+    font-weight: 700;
+}
