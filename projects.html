@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- ===== Header ===== -->
     <header>
         <div class="header-content">
             <div class="header-text">
@@ -21,28 +22,74 @@
             </div>
         </div>
     </header>
+
+    <!-- ===== Navigation ===== -->
     <nav>
         <ul>
             <li><a href="index.html">About</a></li>
-            <li><a href="cv-resume.html">CV/Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="cv-resume.html">CV / Resume</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
             <li><a href="publications.html">Publications</a></li>
             <li><a href="my-world.html">My World</a></li>
         </ul>
     </nav>
+
+    <!-- ===== Projects ===== -->
     <section id="projects">
         <h2>Projects</h2>
-        <h3>(1) A Neural Network Model to Solve PDEs</h3>
-        <p>Status: In Progress</p>
-        <p>Timeline: Aug 2024 - Present</p>
-        <p>A novel neural operator framework designed to solve PDEs with regard to savings in both time complexity and computational expense. All other information is under closure.</p>
-        </ul>
-        <img src="download (1).png" alt="Diffusion Coefficients">
-        <img src="download (2).png" alt="Diffusion RHS">
-        <img src="download (3).png" alt="Diffusion Solution">
+
+        <!-- Original Project kept intact -->
+        <article class="project">
+            <h3>(1) A Neural Network Model to Solve PDEs</h3>
+            <p><strong>Status:</strong> In Progress</p>
+            <p><strong>Timeline:</strong> Aug 2024 – Present</p>
+            <p>
+                A novel neural‑operator framework designed to solve PDEs with drastic savings in time and compute. 
+                (Additional details remain under NDA.)
+            </p>
+            <div class="gallery">
+                <img src="download (1).png" alt="Diffusion Coefficients plot">
+                <img src="download (2).png" alt="Diffusion RHS plot">
+                <img src="download (3).png" alt="Diffusion Solution plot">
+            </div>
+        </article>
+
+        <!-- New Project 1 -->
+        <article class="project">
+            <h3>(2) Mathematical Analysis of Neural Operators</h3>
+            <p><strong>Status:</strong> Published (Proc. Int’l Math. Sci., 2024)</p>
+            <p><strong>Timeline:</strong> Jan 2024 – Nov 2024</p>
+            <p>
+                Established rigorous proofs of stability, exponential convergence, and sample‑complexity bounds for neural operators that learn PDE solution maps.
+            </p>
+            <div class="gallery">
+                <img src="fig_exponential_convergence.png" alt="Exponential Convergence surface">
+                <img src="fig_generalization_bound.png" alt="Generalization Bound surface">
+            </div>
+        </article>
+
+        <!-- New Project 2 -->
+        <article class="project">
+            <h3>(3) Optimal Design of Neural Operators</h3>
+            <p><strong>Status:</strong> Pre‑print Draft</p>
+            <p><strong>Timeline:</strong> Dec 2024 – Present</p>
+            <p>
+                Converts the above theory into practical design rules: multi‑scale Fourier + wavelet layers, spectral normalization, and parallel hardware profiling along six performance axes.
+            </p>
+            <div class="gallery">
+                <img src="fig_lipschitz_constant.png" alt="Lipschitz Constant surface">
+                <img src="fig_iteration_bound.png" alt="Iteration Bound surface">
+                <img src="fig_gen_bound_weight_decay.png" alt="Gen‑Bound Weight‑Decay surface">
+                <img src="fig_multiscale_error.png" alt="Multi‑Scale Error surface">
+                <img src="fig_capacity_growth.png" alt="Capacity Growth surface">
+                <img src="fig_amdahl_speedup.png" alt="Amdahl Speed‑Up surface">
+            </div>
+        </article>
     </section>
+
+    <!-- ===== Footer ===== -->
     <footer>
-        <p>&copy; 2024 Vũ-Anh Lê. All rights reserved.</p>
+        <p>&copy; 2025 Vũ‑Anh Lê. All rights reserved.</p>
     </footer>
 </body>
 </html>
