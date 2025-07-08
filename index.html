@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vũ-Anh Lê</title>
+    <title>Vũ‑Anh Lê</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Delius&family=Frangelica&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
@@ -17,9 +17,9 @@
             </div>
             <div class="header-icons">
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/luffyle/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://orcid.org/0009-0000-1904-5186" target="_blank"><i class="fab fa-orcid"></i></a>
-                    <a href="https://github.com/csplevuanh" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/luffyle/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://orcid.org/0009-0000-1904-5186" target="_blank" rel="noopener"><i class="fab fa-orcid"></i></a>
+                    <a href="https://github.com/csplevuanh" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -49,8 +49,9 @@
                 <p><strong>Education:</strong> B.Sc., Mathematics, Beloit College</p>
                 <p><strong>Research Interests:</strong></p>
                 <ul>
-                    <li>Data Science</li>
-                    <li>Modelling</li>
+                    <li>Geometric Machine Learning</li>
+                    <li>Applied Topological &amp; Geometric Modeling</li>
+                    <li>Remote Sensing &amp; Spatial AI</li>
                 </ul>
                 <p><strong>Affiliation:</strong></p>
                 <ul>
@@ -62,67 +63,57 @@
 
         <div class="description">
             <p>
-                <strong>I am looking for Ph.D. opportunities in data science!</strong> I am interested in practical problems in data science, focusing on three directions: data preprocessing, mathematics of data and modelling, and applied data analysis. I currently serve as a Researcher at the Data Science and Applications Lab, Institute of Information Technology, Vietnam Academy of Science and Technology (supervised by Prof. Nguyen Viet Anh and Prof. Nguyen Truong Thang). I also collaborate with Prof. Paul Liang at MIT EECS’s Multisensory Intelligence Group. My prior experiences include research internships at Google Research, the University of Tokyo, and Beloit College. Below I present each direction with past work and future plans.
+                <strong>I am looking for Ph.D. opportunities in data‑centric geometric AI and remote sensing!</strong> My work bridges
+                <em>geometric machine learning</em>, <em>applied topology &amp; geometry</em>, and <em>remote‑sensing data analytics</em>.
+                I currently serve as a Researcher at the Data Science and Applications Lab, Institute of Information Technology, Vietnam Academy of Science and Technology (supervised by Prof. Nguyen Viet Anh and Prof. Nguyen Truong Thang). I also collaborate with Prof. Paul Liang at MIT EECS’s Multisensory Intelligence Group. My prior experiences include research internships at Google Research, the University of Tokyo, and Beloit College. Below I present three research thrusts with representative work and future plans.
             </p>
-            <h3>1. <strong>Data Preprocessing</strong></h3>
+            <h3>1. <strong>Data Preprocessing &amp; Geometric Cleaning</strong></h3>
             <p>
-                Accurate and efficient preprocessing is the key to reliable data insights. No matter how powerful your models are, messy or contaminated inputs could undermine their performance. My work has focused on applying geometric and topological insights, as well as statistics, to enable cleaning, transforming, and extracting stable features from real-world data. In my papers “Topology-Preserving Scaling in Data Augmentation” and “The Stability of Persistence Diagrams Under Non-Uniform Scaling,” I analyzed how key topological properties respond to transformations, guiding the design of preprocessing steps that maintain essential invariants. Recently, my accepted paper at ICML 2025 Workshop (DIG-BUGS) about mitigating contaminated data in LLMs addressed automated cleaning in high-volume text input. These projects draw skills from topological data Analysis, theoretical stability bounds, and anomaly detection methods.
+                Accurate, geometry‑aware preprocessing is the key to reliable insights. My ICML&nbsp;2025 DIG‑BUGS paper
+                on <em>RN‑F contamination mitigation</em> models noise as a geometric distortion and removes corrupted
+                samples in large language models. Prior work in <em>Topology‑Preserving Scaling</em> and <em>Stability of Persistence Diagrams under Non‑Uniform Scaling</em> provides mathematical guarantees that transformations respect intrinsic structure. I am extending these results to multimodal (vision‑text‑SAR) pipelines with anomaly detection.
             </p>
+            <h3>2. <strong>Mathematics of Data &amp; Model Dynamics</strong></h3>
             <p>
-                Based on these experiences, I plan to develop reusable frameworks that add geometric feature extraction and anomaly-detection into standard data pipelines. I will also extend contamination-detection frameworks beyond text to multimodal inputs-all backed by mathematical guarantees. My objective here is to reduce manual effort in data preparation, improve robustness of downstream analytics, and initiate deployment in real-world systems.
+                I study how data propagate through neural operators. Results in <em>How Analysis Can Teach Us the Optimal Way to Design Neural Operators</em> and the forthcoming <em>Mathematical Analysis of Neural Operator Behaviors</em> connect functional analysis with architecture design. Current preprints on <em>Lipschitz bounds for persistent Laplacians</em> and <em>Spectral contraction on δ‑hyperbolic graphs</em> extend these ideas to graph signal processing and guarantee robustness.
             </p>
-
-            <h3>2. <strong>Mathematics of Data and Modelling (Data Dynamics in the Model)</strong></h3>
+            <h3>3. <strong>Remote‑Sensing &amp; Environmental Analytics</strong></h3>
             <p>
-                Understanding how data propagate and transform within models—and ensuring stability, interpretability, and generalization—is critical for trustworthy and efficient systems. My research on neural operators, such as “A Mathematical Analysis of Neural Operator Behaviors” and “How Analysis Can Teach Us the Optimal Way to Design Neural Operators,” has provided theoretical guarantees into guiding architectural choices such as basis functions and network depth. My complementary stability analyses from topological also inform how small input perturbations affect learned representations. These results offer a unified perspective on data dynamics inside models. I combine a diverse techniques including functional analysis, approximation theory,  representation dynamics, and the enforcement of domain constraints (e.g., PDE structures) to build surrogate models with rigorous underpinnings.
+                My 2024 study in the <em>International Journal of Environmental Studies</em> achieved millimetre‑level land‑subsidence mapping from multi‑temporal SAR by combining geometric filtering with PSI. As an AI advisor at <em>GeoHub.ai</em> I design physics‑informed pipelines for automated environmental monitoring. I am pursuing hybrid physics‑data models for climate risk and natural‑hazard forecasting across ASEAN.
             </p>
-            <p>
-                Looking ahead, I will look into learning representation dynamics in neural networks more deeply, such as quantifying how small changes in input propagate through layers or operator modules. I intend to develop physics-informed surrogate models that respect real-world physics—for example, in climate or fluid dynamics—trained on limited data but equipped with provable error bounds. Another avenue is to design lightweight architectures for edge or resource-constrained deployments such as robotics or offline environment.
-            </p>
-
-            <h3>3. <strong>Applied Data Analysis</strong></h3>
-            <p>
-                Translating theoretical advances and efficient preprocessing into applications ensures real-world impact. In environmental analytics, my work on land subsidence monitoring in Ho Chi Minh City has helped inform policy and risk management in urban planning. In NLP pipelines, I have evaluated how contamination mitigation methods improve downstream model performance. 
-            </p>
-            <p>
-                Moving forward, I aim to continue developing hybrid data–physics models for climate and natural-hazard forecasting, so we may address our pressing environmental challenges. In industrial and IoT contexts, I will prototype edge-deployable systems that perform real-time preprocessing, anomaly detection, and predictive inference for optimizing operations and costs. By these collaborative projects with environmental agencies, industry stakeholders, or NGOs, I seek to demonstrate how data-driven solutions can reduce manual effort and enhance decision-making.
-            </p>
-
             <h2>Let's Collaborate</h2>
             <p>
-                These directions reflect my research interests. If you’re curious about my projects, please reach out:
-            </p>
-            <p>
-                📧 <strong><a href="mailto:csplevuanh@gmail.com">csplevuanh@gmail.com</a></strong> | 
+                If our interests align, reach out:
+                📧 <strong><a href="mailto:csplevuanh@gmail.com">csplevuanh@gmail.com</a></strong> |
                 <strong><a href="mailto:anhlv@ioit.ac.vn">anhlv@ioit.ac.vn</a></strong>
             </p>
-            <p>Thank you for taking the time to read this ☺️ Wishing you a sunny, inspiring day ahead! 🌞✨😎</p>
+            <p>Thank you for visiting. Wishing you a sunny, inspired day ahead! 🌞✨</p>
         </div>
     </section>
 
     <!-- ===== Snapshot: Skills & Projects ===== -->
     <section id="snapshot">
-        <h2>Snapshot · Skills & Recent Projects</h2>
+        <h2>Snapshot · Skills &amp; Recent Projects</h2>
         <div class="snapshot-container">
             <div class="snapshot-img">
                 <a href="projects.html">
-                    <img src="fig_multiscale_error.png" alt="Multi-Scale Error surface" class="shadow" />
+                    <img src="fig_multiscale_error.png" alt="Multi‑Scale Error Surface" class="shadow" />
                 </a>
             </div>
             <div class="snapshot-text">
                 <h3>Core Skills</h3>
                 <ul>
-                    <li>Multimodal modeling · Compositional agents</li>
-                    <li>Neural-operator design & compression (TinyML)</li>
-                    <li>Computational mathematics (harmonic analysis, functional analysis)</li>
-                    <li>GPU/HPC workflows (CUDA · TACC · TPUs)</li>
-                    <li>ML tooling (PyTorch, JAX, HuggingFace, TVM-micro)</li>
+                    <li>Geometric &amp; Topological Data Analysis (Gudhi, Giotto‑TDA, Ripser)</li>
+                    <li>Neural‑Operator Design &amp; Compression (TinyML, TVM‑micro)</li>
+                    <li>Remote‑Sensing Image Processing (Optical &amp; SAR, Google Earth Engine)</li>
+                    <li>High‑Performance Computing (CUDA, TPUs, TACC)</li>
+                    <li>Mathematical Modelling (Functional &amp; Harmonic Analysis)</li>
                 </ul>
                 <h3>Flagship Projects</h3>
                 <ol>
-                    <li><a href="projects.html#projects">(1) Neural-Operator PDE Solver</a></li>
-                    <li><a href="projects.html#projects">(2) Mathematical Analysis of Neural Operators</a></li>
-                    <li><a href="projects.html#projects">(3) Optimal Design of Neural Operators</a></li>
+                    <li><a href="projects.html#projects">Neural‑Operator PDE Solver</a></li>
+                    <li><a href="projects.html#projects">Geometry‑Aware Contamination Mitigation for LLMs</a></li>
+                    <li><a href="projects.html#projects">Land‑Subsidence Mapping with InSAR &amp; Geometric Filters</a></li>
                 </ol>
                 <p class="more-link">
                     ➜ <a href="projects.html">See full project gallery</a>
@@ -136,21 +127,21 @@
         <h2>News</h2>
         <div class="news-container">
             <div class="news-item">
-                <div class="news-date">May 2025</div>
+                <div class="news-date">June 2025</div>
                 <div class="news-description">
-                    Joined the Multisensory Intelligence Group @ MIT EECS as a Student Researcher!
+                    Two new preprints released on Lipschitz bounds for persistent Laplacians and spectral contraction on δ‑hyperbolic graphs!
                 </div>
             </div>
             <div class="news-item">
-                <div class="news-date">Nov 12, 2024</div>
+                <div class="news-date">May 2025</div>
                 <div class="news-description">
-                    Our paper <a href="https://arxiv.org/abs/2411.01763">“How Analysis Can Teach Us the Optimal Way to Design Neural Operators”</a> was accepted to <em>Proceedings of International Mathematical Sciences</em>!
+                    Joined the Multisensory Intelligence Group @ MIT EECS as a Research Associate.
                 </div>
             </div>
             <div class="news-item">
-                <div class="news-date">Mar 15, 2024</div>
+                <div class="news-date">July 2025</div>
                 <div class="news-description">
-                    Excited to have joined the MIT Summer Research Program 2024!
+                    ICML 2025 DIG‑BUGS workshop paper on RN‑F contamination mitigation accepted!
                 </div>
             </div>
         </div>
@@ -159,17 +150,19 @@
 
     <!-- ===== Publications ===== -->
     <section id="publications">
-        <h2>Publications</h2>
-        <p><strong>1.</strong> <strong>Le, Vu Anh</strong>, Nguyen, Dinh Duc Nha, Nguyen, Phi Long, and Keshav, Sood. “.” <em><a href="https://arxiv.org/abs/2505.13249">International Conference on Machine Learning 2025 Workshop on Data in Generative Models (DIG-BUGS)</a></em>, July 2025.</p>
-        <p><strong>2.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “Topology-Preserving Scaling in Data Augmentation.” <em><a href="https://dergipark.org.tr/en/pub/mjm/issue/91604/1615296">Maltepe Journal of Mathematics</a></em>, vol. 7, no. 1, pp. 9–26, April 2025.</p>
-        <p><strong>3.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “How Analysis Can Teach Us the Optimal Way to Design Neural Operators.” <em><a href="https://doi.org/10.47086/pims.1579364">Proceedings of International Mathematical Sciences</a></em>, vol. 6, no. 2, pp. 77–99, Dec 2024.</p>
-        <p><strong>4.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “The Stability of Persistence Diagrams Under Non-Uniform Scaling.” <em><a href="https://doi.org/10.48550/arXiv.2411.16126">arXiv</a></em>, Nov 2024. (Accepted to <em>Boletim da Sociedade Paranaense de Matemática</em>)</p>
-        <p><strong>5.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “A Mathematical Analysis of Neural Operator Behaviors.” <em><a href="https://doi.org/10.48550/arXiv.2410.21481">arXiv</a></em>, Oct 2024. (Accepted as a chapter in <em>Advances in Quantum Calculus and Functional Analysis</em>, CRC Press, Taylor & Francis Group)</p>
+        <h2>Selected Publications &amp; Preprints</h2>
+        <p><strong>1.</strong> <strong>Le, Vu Anh</strong>, Dik, Mehmet, Nguyen, Viet Anh, and Le, Hai Khoi. “Lipschitz Bounds for Persistent Laplacian Eigenvalues under One‑Simplex Insertions.” <em>Journal of Applied and Computational Geometry</em> (submitted), 2025. <a href="https://doi.org/10.48550/arXiv.2506.2135" target="_blank" rel="noopener">arXiv</a></p>
+        <p><strong>2.</strong> <strong>Le, Vu Anh</strong>, Dik, Mehmet, and Nguyen, Viet Anh. “Spectral Contraction of Boundary‑Weighted Filters on δ‑Hyperbolic Graphs.” <em>Transactions on Machine Learning Research</em> (submitted), 2025. <a href="https://doi.org/10.48550/arXiv.2506.15464" target="_blank" rel="noopener">arXiv</a></p>
+        <p><strong>3.</strong> <strong>Le, Vu Anh</strong>, Nguyen, Dinh Duc Nha, Nguyen, Phi Long, and Sood, Keshav. “RN‑F: A Novel Approach for Mitigating Contaminated Data in Large Language Models.” In <em>ICML 2025 Workshop on Data in Generative Models (DIG‑BUGS)</em>, 2025. <a href="https://arxiv.org/abs/2505.13249" target="_blank" rel="noopener">arXiv</a></p>
+        <p><strong>4.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “Topology‑Preserving Scaling in Data Augmentation.” <em><a href="https://dergipark.org.tr/en/pub/mjm/issue/91604/1615296" target="_blank" rel="noopener">Maltepe Journal of Mathematics</a></em>, 7(1):9–26, 2025.</p>
+        <p><strong>5.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “How Analysis Can Teach Us the Optimal Way to Design Neural Operators.” <em><a href="https://doi.org/10.47086/pims.1579364" target="_blank" rel="noopener">Proceedings of International Mathematical Sciences</a></em>, 6(2):77–99, 2024.</p>
+        <p><strong>6.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “The Stability of Persistence Diagrams Under Non‑Uniform Scaling.” <em><a href="https://doi.org/10.48550/arXiv.2411.16126" target="_blank" rel="noopener">Boletim da Sociedade Paranaense de Matemática</a></em> (in press), 2024.</p>
+        <p><strong>7.</strong> Vu, Thi Phuong Thao, Dan Truong Giang, and <strong>Le, Vu Anh</strong>. “Reliability Assessment of Land Subsidence Monitoring Results Using PSI Technique in Ho Chi Minh City, Vietnam.” <em><a href="https://doi.org/10.1080/00207233.2024.2324623" target="_blank" rel="noopener">International Journal of Environmental Studies</a></em>, 2024.</p>
     </section>
 
     <!-- ===== Footer ===== -->
     <footer>
-        <p>&copy; 2024 Vũ-Anh Lê. All rights reserved.</p>
+        <p>&copy; 2025 Vũ‑Anh Lê. All rights reserved.</p>
     </footer>
 </body>
 </html>
