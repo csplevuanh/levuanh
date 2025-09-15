@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vũ-Anh Lê</title>
+    <title>Vũ‑Anh Lê</title>
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Delius&family=Frangelica&family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <meta name="description" content="Vũ‑Anh Lê — geometric & topological methods for computation: information geometry, spectral analysis, and TDA for data representation, machine learning, and autoformalization." />
 </head>
 <body>
     <!-- ===== Header ===== -->
@@ -17,9 +18,9 @@
             </div>
             <div class="header-icons">
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/luffyle/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://orcid.org/0009-0000-1904-5186" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid"></i></a>
-                    <a href="https://github.com/csplevuanh" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/luffyle/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://orcid.org/0009-0000-1904-5186" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+                    <a href="https://github.com/csplevuanh" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -40,7 +41,7 @@
     <section id="about">
         <div class="about-container">
             <div class="left-section">
-                <img src="head_shot.jpg" alt="Portrait" class="portrait" />
+                <img src="head_shot.jpg" alt="Portrait of Vũ‑Anh Lê" class="portrait" />
             </div>
             <div class="middle-section"></div>
             <div class="right-section">
@@ -49,9 +50,9 @@
                 <p><strong>Education:</strong> B.Sc., Mathematics, Beloit College</p>
                 <p><strong>Research Interests:</strong></p>
                 <ul>
-                    <li>Theory of Graph Neural Networks, including Graph Transformers and Graph Foundation Models</li>
-                    <li>Methods: information geometry, functional analysis, and optimization</li>
-                    <li>Properties: expressivity, stability, robustness → practical tools</li>
+                    <li>Geometry</li>
+                    <li>Topology</li>
+                    <li>Mathematics of Data</li>
                 </ul>
                 <p><strong>Affiliation:</strong></p>
                 <ul>
@@ -63,32 +64,37 @@
 
         <div class="description">
             <p>
-                I develop theories to understand <strong>graph neural networks</strong>—including <strong>Graph Transformers</strong> and <strong>Graph Foundation Models</strong>. Using techniques from <em>information geometry</em>, <em>functional analysis</em>, and <em>optimization</em>, I study core properties such as <em>expressivity</em>, <em>stability</em>, and <em>robustness</em>, then translate those guarantees into practical tools.
+                I develop <strong>geometric</strong> and <strong>topological</strong> methods for solving computational problems. By deriving techniques from information geometry, spectral analysis, and topological data analysis, I prove theoretical guarantees and design tools for data representation, machine learning, and autoformalization.
             </p>
 
-            <h3>1. <strong>Expressivity · Stability · Robustness</strong></h3>
+            <h3>1. <strong>Data Representation</strong></h3>
             <p>
-                I derive bounds and invariants for GNNs and GFMs using geometric and analytic methods, with results that quantify how architectures behave under structural changes and noise—e.g., Lipschitz controls for spectral/topological operators and contraction criteria on non-Euclidean graphs.
+                I study spectral and topological invariants, e.g., Laplacian spectra, diffusion operators, and persistent homology, to capture geometry at multiple scales. The goal is representation schemes that are stable under noise and deformations while remaining expressive for downstream tasks.
             </p>
 
-            <h3>2. <strong>From Guarantees to Tools</strong></h3>
+            <h3>2. <strong>Machine Learning</strong></h3>
             <p>
-                I convert theoretical guarantees into diagnostics, verifiers, and training objectives—such as stability-aware regularizers, certified perturbation budgets, and robustness checks—so models are not only analyzable but also usable in practice.
+                I translate guarantees (stability, robustness, generalization) into diagnostics, regularizers, and certifiers for ML pipelines: stability‑aware objectives, perturbation budgets, and spectral/TDA‑based checks that make models more reliable in practice.
             </p>
 
-            <h3>3. <strong>Graph Transformers &amp; Graph Foundation Models</strong></h3>
+            <h3>3. <strong>Autoformalization</strong></h3>
             <p>
-                I study how attention-based and foundation-scale graph models inherit (or violate) desired properties, and design mechanisms that preserve expressivity while maintaining stability and robustness at scale.
+                I explore pipelines that turn informal mathematical/ML statements into machine‑checkable proofs and specifications. This includes structuring claims and invariants and mapping them to proof assistants (e.g., Lean/Isabelle) to enable verifiable research artifacts and reproducible reasoning.
+            </p>
+
+            <h3>4. <strong>Graphs as a Universal Data Representation</strong></h3>
+            <p>
+                Many problems are instantiated on graphs. I therefore retain an emphasis on spectral graph methods and stability bounds on non‑Euclidean domains, building on prior work in graph filters, Laplacians, and δ‑hyperbolic structures.
             </p>
 
             <h2>Let's Collaborate</h2>
             <p>
-                I welcome collaborations on graph learning theory, Graph Transformers, GFMs, and theory-to-tooling for robust deployment.<br />
-                📧 <strong><a href="mailto:csplevuanh@gmail.com">csplevuanh@gmail.com</a></strong> · 
-                <strong><a href="mailto:anhlv@ioit.ac.vn">anhlv@ioit.ac.vn</a></strong> · 
+                I welcome collaborations on geometric learning, spectral/TDA methods, and autoformalization‑driven tooling.<br />
+                📧 <strong><a href="mailto:csplevuanh@gmail.com">csplevuanh@gmail.com</a></strong> ·
+                <strong><a href="mailto:anhlv@ioit.ac.vn">anhlv@ioit.ac.vn</a></strong> ·
                 <strong><a href="mailto:levuanh@mit.edu">levuanh@mit.edu</a></strong>
             </p>
-            <p>Thanks for visiting! May your graphs be expressive and your geometry smooth. ✨</p>
+            <p>Thanks for visiting. "In God we trust. All others must bring data."</p>
         </div>
     </section>
 
@@ -98,23 +104,23 @@
         <div class="snapshot-container">
             <div class="snapshot-img">
                 <a href="projects.html">
-                    <img src="fig_multiscale_error.png" alt="Multi-Scale Error Surface" class="shadow" />
+                    <img src="fig_multiscale_error.png" alt="Multi‑Scale Geometry Illustration" class="shadow" />
                 </a>
             </div>
             <div class="snapshot-text">
                 <h3>Core Skills</h3>
                 <ul>
-                    <li>Geometric &amp; Topological Data Analysis (Gudhi, Giotto-TDA, Ripser)</li>
-                    <li>Neural-Operator Design &amp; Compression (TinyML, TVM-micro)</li>
-                    <li>Remote-Sensing Image Processing (Optical &amp; SAR, Google Earth Engine)</li>
-                    <li>High-Performance Computing (CUDA, TPUs, TACC)</li>
-                    <li>Mathematical Modelling (Functional Analysis &amp; Optimization)</li>
+                    <li>Information Geometry & Spectral Methods (graph/metric Laplacians, diffusion)</li>
+                    <li>Topological Data Analysis (Gudhi, Giotto‑TDA, Ripser)</li>
+                    <li>Geometric Learning & Representation (graph/simplicial complexes, kernels)</li>
+                    <li>Autoformalization & Proof Engineering (Lean/Isabelle; spec→proof workflows)</li>
+                    <li>Optimization & Operator Theory for ML (stability/robustness objectives)</li>
                 </ul>
                 <h3>Flagship Projects</h3>
                 <ol>
-                    <li><a href="projects.html#projects">Neural-Operator PDE Solver</a></li>
-                    <li><a href="projects.html#projects">Geometry-Aware Contamination Mitigation for LLMs</a></li>
-                    <li><a href="projects.html#projects">Land-Subsidence Mapping with InSAR &amp; Geometric Filters</a></li>
+                    <li><a href="projects.html#projects">Spectral–Topological Stability for Representation Learning</a></li>
+                    <li><a href="projects.html#projects">Autoformalization of TDA Statements in Lean</a></li>
+                    <li><a href="projects.html#projects">Information‑Geometric Regularizers for Robust Models</a></li>
                 </ol>
                 <p class="more-link">
                     ➜ <a href="projects.html">See full project gallery</a>
@@ -128,21 +134,21 @@
         <h2>News</h2>
         <div class="news-container">
             <div class="news-item">
+                <div class="news-date">July 2025</div>
+                <div class="news-description">
+                    ICML 2025 DIG‑BUGS workshop paper on RN‑F contamination mitigation accepted!
+                </div>
+            </div>
+            <div class="news-item">
                 <div class="news-date">June 2025</div>
                 <div class="news-description">
-                    Two new preprints released on Lipschitz bounds for persistent Laplacians and spectral contraction on δ-hyperbolic graphs!
+                    Two new preprints released on Lipschitz bounds for persistent Laplacians and spectral contraction on δ‑hyperbolic graphs!
                 </div>
             </div>
             <div class="news-item">
                 <div class="news-date">May 2025</div>
                 <div class="news-description">
                     Joined the Multisensory Intelligence Group @ MIT EECS as a Research Associate.
-                </div>
-            </div>
-            <div class="news-item">
-                <div class="news-date">July 2025</div>
-                <div class="news-description">
-                    ICML 2025 DIG-BUGS workshop paper on RN-F contamination mitigation accepted!
                 </div>
             </div>
         </div>
@@ -152,18 +158,18 @@
     <!-- ===== Publications ===== -->
     <section id="publications">
         <h2>Selected Publications &amp; Preprints</h2>
-        <p><strong>1.</strong> <strong>Le, Vu Anh</strong>, Dik, Mehmet, Nguyen, Viet Anh, and Le, Hai Khoi. “Lipschitz Bounds for Persistent Laplacian Eigenvalues under One-Simplex Insertions.” <em>Journal of Applied and Computational Geometry</em> (submitted), 2025. <a href="https://doi.org/10.48550/arXiv.2506.2135" target="_blank" rel="noopener noreferrer">arXiv</a></p>
-        <p><strong>2.</strong> <strong>Le, Vu Anh</strong>, Dik, Mehmet, and Nguyen, Viet Anh. “Spectral Contraction of Boundary-Weighted Filters on δ-Hyperbolic Graphs.” <em>Transactions on Machine Learning Research</em> (submitted), 2025. <a href="https://doi.org/10.48550/arXiv.2506.15464" target="_blank" rel="noopener noreferrer">arXiv</a></p>
-        <p><strong>3.</strong> <strong>Le, Vu Anh</strong>, Nguyen, Dinh Duc Nha, Nguyen, Phi Long, and Sood, Keshav. “RN-F: A Novel Approach for Mitigating Contaminated Data in Large Language Models.” <em><a href="https://openreview.net/forum?id=XtsXFe5EyX" target="_blank" rel="noopener noreferrer">ICML 2025 Workshop on Data in Generative Models (DIG-BUGS)</a></em>, 2025.</p>
-        <p><strong>4.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “Topology-Preserving Scaling in Data Augmentation.” <em><a href="https://dergipark.org.tr/en/pub/mjm/issue/91604/1615296" target="_blank" rel="noopener noreferrer">Maltepe Journal of Mathematics</a></em>, 7(1):9–26, 2025.</p>
+        <p><strong>1.</strong> <strong>Le, Vu Anh</strong>, Dik, Mehmet, Nguyen, Viet Anh, and Le, Hai Khoi. “Lipschitz Bounds for Persistent Laplacian Eigenvalues under One‑Simplex Insertions.” <em>Journal of Applied and Computational Geometry</em> (submitted), 2025. <a href="https://doi.org/10.48550/arXiv.2506.2135" target="_blank" rel="noopener noreferrer">arXiv</a></p>
+        <p><strong>2.</strong> <strong>Le, Vu Anh</strong>, Dik, Mehmet, and Nguyen, Viet Anh. “Spectral Contraction of Boundary‑Weighted Filters on δ‑Hyperbolic Graphs.” <em>Transactions on Machine Learning Research</em> (submitted), 2025. <a href="https://doi.org/10.48550/arXiv.2506.15464" target="_blank" rel="noopener noreferrer">arXiv</a></p>
+        <p><strong>3.</strong> <strong>Le, Vu Anh</strong>, Nguyen, Dinh Duc Nha, Nguyen, Phi Long, and Sood, Keshav. “RN‑F: A Novel Approach for Mitigating Contaminated Data in Large Language Models.” <em><a href="https://openreview.net/forum?id=XtsXFe5EyX" target="_blank" rel="noopener noreferrer">ICML 2025 Workshop on Data in Generative Models (DIG‑BUGS)</a></em>, 2025.</p>
+        <p><strong>4.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “Topology‑Preserving Scaling in Data Augmentation.” <em><a href="https://dergipark.org.tr/en/pub/mjm/issue/91604/1615296" target="_blank" rel="noopener noreferrer">Maltepe Journal of Mathematics</a></em>, 7(1):9–26, 2025.</p>
         <p><strong>5.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “How Analysis Can Teach Us the Optimal Way to Design Neural Operators.” <em><a href="https://doi.org/10.47086/pims.1579364" target="_blank" rel="noopener noreferrer">Proceedings of International Mathematical Sciences</a></em>, 6(2):77–99, 2024.</p>
-        <p><strong>6.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “The Stability of Persistence Diagrams Under Non-Uniform Scaling.” <em><a href="https://doi.org/10.48550/arXiv.2411.16126" target="_blank" rel="noopener noreferrer">Boletim da Sociedade Paranaense de Matemática</a></em> (in press), 2024.</p>
+        <p><strong>6.</strong> <strong>Le, Vu Anh</strong>, and Dik, Mehmet. “The Stability of Persistence Diagrams Under Non‑Uniform Scaling.” <em><a href="https://doi.org/10.48550/arXiv.2411.16126" target="_blank" rel="noopener noreferrer">Boletim da Sociedade Paranaense de Matemática</a></em> (in press), 2024.</p>
         <p><strong>7.</strong> Vu, Thi Phuong Thao, Dan Truong Giang, and <strong>Le, Vu Anh</strong>. “Reliability Assessment of Land Subsidence Monitoring Results Using PSI Technique in Ho Chi Minh City, Vietnam.” <em><a href="https://doi.org/10.1080/00207233.2024.2324623" target="_blank" rel="noopener noreferrer">International Journal of Environmental Studies</a></em>, 2024.</p>
     </section>
 
     <!-- ===== Footer ===== -->
     <footer>
-        <p>&copy; 2025 Vũ-Anh Lê. All rights reserved.</p>
+        <p>&copy; 2025 Vũ‑Anh Lê. All rights reserved.</p>
     </footer>
 </body>
 </html>
