@@ -1,29 +1,31 @@
----
+--- 
 layout: homepage
 ---
 
 # About Me
 
-I am an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as a member of the **Responsible AI for Science and Engineering (RAISE)** group. I hold a B.Sc. in Mathematics from Beloit College.
+I am a Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I hold a B.Sc. in Mathematics from Beloit College.
 
-My research lies at the intersection of mathematics, philosophy, and multimodal AI. I focus on **constraint‑driven alignment**, meaning using geometric, physical, and logical constraints to make models more truthful and robust. I believe that decentralised, collaborative AI research is key to unlocking human potential, and I always look forward to connecting with others who share this vision.
+My research focuses on **constraint-driven approaches to reliable AI**, especially in multimodal settings. I am interested in how geometric, physical, and logical structure can be built into models so that their outputs are more consistent, interpretable, and robust. More broadly, I think of this as studying how to make modern AI systems reason in ways that better reflect the structure of the οὐσία (ousia), or the real world.
+
+I am also interested in collaborative and open-sourced AI research, and I’m always happy to connect with others working on related problems.
 
 ## Research Interests
 
-I work on reasoning and alignment problems in multimodal models. Inspired by pioneers such as **George Karniadakis**, **Pascal Van Hentenryck**, and **Zico Kolter**, I aim to embed physical and metaphysical awareness into AI systems through three complementary pillars:
+I work on reasoning and alignment in multimodal models, with an emphasis on adding structure and constraints into learning and decision-making.
 
-1. **Geometry‑ & Physics‑Informed Reasoning**  
-   Enforce constraints during pretraining so that models produce outputs consistent with high‑dimensional geometry, physics, and realistic causal structures. This yields traceable reasoning and physically plausible generations.
+1. **Geometry- and Physics-Informed Reasoning**  
+   I study how to enforce geometric, physical, and causal constraints during training so that models produce outputs that are consistent and physically plausible. The goal is to move toward reasoning that is more structured and traceable, rather than purely statistical.
 
-2. **Deep Reinforcement Learning & Optimisation**  
-   Develop efficient RL and optimisation methods that minimise computational cost. Our goal is to deliver frontier‑level models without the need for ever‑expanding data centres. Let's make powerful AI more sustainable and accessible.
+2. **Constraint-Aware Optimization and Reinforcement Learning**  
+   I develop optimization and reinforcement learning methods that incorporate constraints directly into training. This helps improve reliability while also reducing unnecessary computational cost.
 
-3. **Humanitarian Decision-Making Applications**  
-   Fine‑tune safe, aligned models to address real‑world challenges, such as geospatial coordination during weather crises and optimising rural logistics. Technology should serve human welfare first.
+3. **Decision-Making in High-Stakes Settings**  
+   I am interested in applying these ideas to real-world humanitarian problems where reliability matters, such as geospatial coordination, rural logistics, and crisis response. These settings provide a way to evaluate how well models behave under real and emergent constraints.
 
 ## News
 
-- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia as part of the RAISE group.
+- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia as part of the RAISE group!
 
 ## Publications
 
