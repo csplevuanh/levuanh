@@ -16,7 +16,7 @@ I work on reasoning and alignment problems in multimodal models. Inspired by pio
    Enforce constraints during pretraining so that models produce outputs consistent with high‑dimensional geometry, physics, and realistic causal structures. This yields traceable reasoning and physically plausible generations.
 
 2. **Deep Reinforcement Learning & Optimisation**  
-   Develop efficient RL and optimisation methods that minimise computational cost. Our goal is to deliver frontier‑level models without the need for ever‑expanding data centres – making powerful AI more sustainable and accessible.
+   Develop efficient RL and optimisation methods that minimise computational cost. Our goal is to deliver frontier‑level models without the need for ever‑expanding data centres. Let's make powerful AI more sustainable and accessible.
 
 3. **Humanitarian Applications**  
    Fine‑tune safe, aligned models to address real‑world challenges, such as geospatial coordination during weather crises and optimising rural logistics. Technology should serve human welfare first.
