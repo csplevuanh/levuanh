@@ -8,11 +8,11 @@ email: yourname (at) example.edu
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Vu-Anh Le
 description: A personal website of Vu-Anh Le.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://vuanhle.github.io
 
 # Links 
 google_scholar: https://scholar.google.com/citations?hl=en&user=v3_DrtcAAAAJ
-github_link: https://github.com/csplevuanh
+github_link: https://github.com/vuanhle
 linkedin: www.linkedin.com/in/levuanh
 
 # Images (e.g., your profile picture and your website's favicon) 
