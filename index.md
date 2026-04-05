@@ -39,4 +39,4 @@ I work on reasoning and alignment in multimodal models, with an emphasis on addi
   <img src="./assets/img/concentration_phenomenon.png" alt="Concentration of Measure Phenomenon" width="600"/>
 </p>
 
-In high-dimensional spaces, distances between points become nearly identical. This fundamentally reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is critical to data geometry in AGI because it explains why naive notions of distance fail, motivating the need for structured, constraint-aware representations that preserve meaningful variation.
+In high-dimensional spaces, distances between points become nearly similar. This reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is important to data geometry in AGI because it explains why naive notions of distance fail. That's why it motivates the need for structured, constraint-aware representations that preserve meaningful variation.
