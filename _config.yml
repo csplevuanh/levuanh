@@ -1,18 +1,18 @@
-Basic Information 
+# Basic Information 
 title: Vu-Anh Le
 position: Ph.D. Student
-affiliation: Department of Computer Science, Univeristy of Virginia
+affiliation: Department of Computer Science, University of Virginia
 email: yourname (at) example.edu
 
-# ---------- Add these two lines ----------
-baseurl: ""        # if you rename repo to vuanhle.github.io
-url: "https://vuanhle.github.io"
+# Site settings for GitHub Pages
+baseurl: ""                           # empty because repo is vuanhle.github.io
+url: "https://vuanhle.github.io"      # your user domain
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Vu-Anh Le
 description: A personal website of Vu-Anh Le.
-canonical: https://vuanhle.github.io
+canonical: https://vuanhle.github.io   # matches url above
 
 # Links 
 google_scholar: https://scholar.google.com/citations?hl=en&user=v3_DrtcAAAAJ
