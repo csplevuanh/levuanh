@@ -43,4 +43,4 @@ Why studying geometry is fundamental to the advances of multimodal AI? Let's con
 
 ## Outside of work
 
-Outside of work, I am an avid reader of philosophy—I am exploring how diverse schools of thought can inform the design of aligned, augmented AI systems. I see common ground between Western analytic philosophy (with its naturalist worldview) and Taoism (with its concept of Ziran, or natural spontaneity). Though often viewed as opposites, both offer an observational, dissecting approach to learning from experience. I hope to enforce these principles and insights into long‑term scientific AI systems.
+Outside of work, I am an avid reader of history and philosophy. I am exploring how diverse schools of thought can inform the design of aligned, augmented AI systems. I see common ground between Western analytic philosophy (with its naturalist worldview) and Taoism (with its concept of Ziran, or natural spontaneity). Though often viewed as opposites, both offer an observational, dissecting approach to learning from experience. I hope to enforce these principles and insights into long‑term scientific AI systems.
