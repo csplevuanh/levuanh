@@ -18,7 +18,7 @@ I work on reasoning and alignment in multimodal models, with an emphasis on addi
    I study how to enforce geometric, physical, and causal constraints during training so that models produce outputs that are consistent and physically plausible. The goal is to move toward reasoning that is more structured and traceable, rather than purely statistical.
 
 2. **Constraint-Aware Optimization and Reinforcement Learning**  
-   I develop optimization and reinforcement learning methods that incorporate constraints directly into training. This helps improve reliability while also reducing unnecessary computational cost.
+   I develop optimization and reinforcement learning methods that place constraints directly into training. This helps improve reliability while also reducing unnecessary computational cost.
 
 3. **Decision-Making in High-Stakes Settings**  
    I am interested in applying these ideas to real-world humanitarian problems where reliability matters, such as geospatial coordination, rural logistics, and crisis response. These settings provide a way to evaluate how well models behave under real and emergent constraints.
@@ -40,3 +40,7 @@ I work on reasoning and alignment in multimodal models, with an emphasis on addi
 </p>
 
 In high-dimensional spaces, distances between points become nearly similar. This reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is important to data geometry in AGI because it explains why naive notions of distance fail. That's why it motivates the need for structured, constraint-aware representations that preserve meaningful variation.
+
+## Outside of work
+
+Outside of work, I am an avid reader of philosophy—I am exploring how diverse schools of thought can inform the design of aligned, augmented AI systems. I see common ground between Western analytic philosophy (with its naturalist worldview) and Taoism (with its concept of Ziran, or natural spontaneity). Though often viewed as opposites, both offer an observational, dissecting approach to learning from experience. I hope to enforce these principles and insights into long‑term scientific AI systems.
