@@ -39,7 +39,7 @@ I work on reasoning and alignment in multimodal models, with an emphasis on addi
   <img src="./assets/img/concentration_phenomenon.png" alt="Concentration of Measure Phenomenon" width="600"/>
 </p>
 
-Why studying geometry is fundemental to the advances of multimodal AI? Let's consider this fun fact. In high-dimensional spaces, distances between points become nearly similar. This reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is important to data geometry in AGI because it explains why naive notions of distance fail. That's why it motivates the need for structured, constraint-aware representations that preserve meaningful variation.
+Why studying geometry is fundamental to the advances of multimodal AI? Let's consider this fun fact. In high-dimensional spaces, distances between points become nearly similar. This reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is important to data geometry in AGI because it explains why naive notions of distance fail. That's why it motivates the need for structured, constraint-aware representations that preserve meaningful variation.
 
 ## Outside of work
 
