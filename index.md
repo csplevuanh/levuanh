@@ -4,7 +4,7 @@ layout: homepage
 
 # About Me
 
-I am a Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I hold a B.Sc. in Mathematics from Beloit College.
+I am an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I hold a B.Sc. in Mathematics from Beloit College.
 
 My research focuses on **constraint-driven approaches to reliable AI**, especially in multimodal settings. I am interested in how geometric, physical, and logical structure can be built into models so that their outputs are more consistent, interpretable, and robust. More broadly, I think of this as studying how to make modern AI systems reason in ways that better reflect the structure of the οὐσία (ousia), or the real world.
 
