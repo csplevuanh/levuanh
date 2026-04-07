@@ -6,9 +6,9 @@ layout: homepage
 
 I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I'm honored to be fully supported by the UVA Computer Science Scholar Fellowship. I hold a B.Sc. in Mathematics from Beloit College.
 
-My research focuses on **constraint-driven approaches to reliable AI**, especially in multimodal settings. I am interested in how geometric, physical, and logical structure can be built into models so that their outputs are more consistent, interpretable, and robust. More broadly, I think of this as studying how to make modern AI systems reason in ways that better reflect the structure of the real world.
+My research focuses on **constraint-driven approaches to reliable AI**, especially in multimodal settings. I'm interested in how geometric, physical, and logical structure can be built into models so that their outputs are more consistent, interpretable, and robust. More broadly, I think of this as studying how to make modern AI systems reason in ways that better reflect the structure of the real world.
 
-I am also interested in collaborative and open-sourced AI research, and I’m always happy to connect with others working on related problems.
+I'm also interested in collaborative and open-sourced AI research, and I’m always happy to connect with others working on related problems.
 
 ## Research Interests
 
@@ -21,7 +21,7 @@ I work on reasoning and alignment in multimodal models, with an emphasis on addi
    I develop optimization and reinforcement learning methods that place constraints directly into training. This helps improve reliability while also reducing unnecessary computational cost.
 
 3. **Decision-Making in High-Stakes Settings**  
-   I am interested in applying these ideas to real-world humanitarian problems where reliability matters, such as geospatial coordination, rural logistics, and crisis response. These settings provide a way to evaluate how well models behave under real and emergent constraints.
+   I'm driven to applying these models to real-world humanitarian problems where reliability matters, such as geospatial coordination, rural logistics, and crisis response. These settings provide a way to evaluate how well models behave under real and emergent constraints.
 
 ## News
 
@@ -47,4 +47,4 @@ Why studying geometry is fundamental to the advances of multimodal AI? Let's con
   <img src="./assets/img/IMG_6890.png" alt="Outside of work" width="600"/>
 </p>
 
-Beyond academia, I pursue deep tech projects that address foundational infrastructure problems. I'm also an avid reader of history and philosophy. I am exploring how diverse schools of thought can inform the design of aligned, augmented AI systems. I see common ground between Western analytic philosophy (with its naturalist worldview) and Taoism (with its concept of Ziran, or natural spontaneity). Though often viewed as opposites, both offer an observational, dissecting approach to learning from experience. I hope to enforce these principles and insights into long‑term scientific AI systems.
+Beyond academia, I pursue deep tech projects that address foundational infrastructure problems. I'm also an avid reader of history and philosophy. I'm exploring how diverse schools of thought can inform the design of aligned, augmented AI systems. I see common ground between Western analytic philosophy (with its naturalist worldview) and Taoism (with its concept of Ziran, or natural spontaneity). Though often viewed as opposites, both offer an observational, dissecting approach to learning from experience. I hope to enforce these principles and insights into long‑term scientific AI systems.
