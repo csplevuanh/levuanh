@@ -6,22 +6,19 @@ layout: homepage
 
 I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I'm honored to be fully supported by the UVA Computer Science Scholar Fellowship. I hold a B.Sc. in Mathematics from Beloit College.
 
-My research focuses on **constraint-driven approaches to reliable AI**, especially in multimodal settings. I'm interested in how geometric, physical, and logical structure can be built into models so that their outputs are more consistent, interpretable, and robust. More broadly, I think of this as studying how to make modern AI systems reason in ways that better reflect the structure of the real world.
+My research focuses on **constrained generative modeling** to build multimodal AI systems that respect geometric, physical, and structural precedents. I'm interested in how constraints can be embedded directly into the generative process--through latent space design, decoding mechanisms, or optimization--so that outputs are more consistent, interpretable, and reliable. More broadly, I think of this as a step toward reasoning that reflects the structure of the real world.
 
 I'm also interested in collaborative and open-sourced AI research, and I’m always happy to connect with others working on related problems.
 
 ## Research Interests
 
-I work on reasoning and alignment in multimodal models, with an emphasis on adding structure and constraints into learning and decision-making.
+I work on constrained generative modeling to build multimodal models that respect geometric, physical, and structural priors. My goal is to move beyond purely statistical reasoning toward outputs that are consistent, traceable, and reliable.
 
-1. **Geometry- and Physics-Informed Reasoning**  
-   I study how to enforce geometric, physical, and causal constraints during training so that models produce outputs that are consistent and physically plausible. The goal is to move toward reasoning that is more structured and traceable, rather than purely statistical.
+1. **Geometry‑ and Physics‑Aware Generation** – Enforcing geometric (e.g., symmetry, invariance) and physical constraints during training or inference of generative models (diffusion, flow matching, LLMs). This includes designing latent spaces and decoding mechanisms that guarantee constraint satisfaction.
 
-2. **Constraint-Aware Optimization and Reinforcement Learning**  
-   I develop optimization and reinforcement learning methods that place constraints directly into training. This helps improve reliability while also reducing unnecessary computational cost.
+2. **Constraint‑Aware Optimization for Generative Models** – Developing efficient training and post‑training methods (including RL‑based fine‑tuning) that embed constraints directly into the generative process. This approach reduces both inconsistency and computational cost.
 
-3. **Decision-Making in High-Stakes Settings**  
-   I'm driven to applying these models to real-world humanitarian problems where reliability matters, such as geospatial coordination, rural logistics, and crisis response. These settings provide a way to evaluate how well models behave under real and emergent constraints.
+3. **High‑Stakes Decision Making** – Applying constrained generative models to science and engineering, such as geospatial coordination, rural logistics, crisis response. These settings provide real‑world testbeds for reliability under hard constraints.
 
 ## News
 
