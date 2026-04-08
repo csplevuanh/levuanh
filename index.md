@@ -25,8 +25,6 @@ I work on reasoning and alignment in multimodal models, with an emphasis on addi
 
 ## News
 
-<img src="/assets/img/IMG_6816.jpeg" alt="News image" width="600"/>
-
 - **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia as part of the RAISE group!
 
 ## Publications
