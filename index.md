@@ -28,8 +28,6 @@ I work on constrained generative modeling to build multimodal models that respec
 
 1. **Le, Vu Anh** and Dik, Mehmet, “A Mathematical Analysis of Neural Operator Behaviors,” Chapter 23 in *[Advances in Quantum Calculus and Functional Analysis](https://www.routledge.com/Quantum-Calculus-and-Functional-Analysis-with-Applications/Hazarika-Tikare-Dik-Chalishajar/p/book/9781041014478)*, Taylor & Francis Group, July 2025.
 
-2. **Le, Vu Anh**, Nguyen, Dinh Duc Nha, Nguyen, Phi Long, and Sood, Keshav, “RN-F: A Novel Approach for Mitigating Contaminated Data in Large Language Models,” in *[International Conference on Machine Learning Workshop on Data in Generative Models](https://openreview.net/forum?id=XtsXFe5EyX)*, June 2025.
-
 ## A fun fact 
 
 <p align="center">
