@@ -37,11 +37,3 @@ I work on constrained generative modeling to build multimodal models that respec
 </p>
 
 Why studying geometry is fundamental to the advances of multimodal AI? Let's consider this fun fact. In high-dimensional spaces, distances between points become nearly similar. This reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is important to data geometry in AGI because it explains why naive notions of distance fail. That's why it motivates the need for structured, constraint-aware representations that preserve meaningful variation.
-
-## Outside of work
-
-<p align="center">
-  <img src="./assets/img/IMG_6890.png" alt="Outside of work" width="600"/>
-</p>
-
-Beyond academia, I'm an avid reader of history and philosophy. I'm exploring how diverse schools of thought can inform the design of aligned, augmented AI systems. I see common ground between Western analytic philosophy (with its naturalist worldview) and Taoism (with its concept of Ziran, or natural spontaneity). Though often viewed as opposites, both offer an observational, dissecting approach to learning from experience. I hope to enforce these principles and insights into long‑term scientific AI systems.
