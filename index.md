@@ -18,7 +18,7 @@ I work on constrained generative modeling to build multimodal models that respec
 
 2. **Constraint‑Aware Optimization for Generative Models** – Developing efficient training and post‑training methods (including RL‑based fine‑tuning) that embed constraints directly into the generative process. This approach reduces both inconsistency and computational cost.
 
-3. **High‑Stakes Decision Making** – Applying constrained generative models to science and engineering, such as geospatial coordination, rural logistics, crisis response. These settings provide real‑world testbeds for reliability under hard constraints.
+3. **Science and Engineering Apps** – Applying constrained generative models to science and engineering.
 
 ## News
 
