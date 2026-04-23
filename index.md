@@ -27,11 +27,3 @@ My work lies at the intersection of constrained generative modeling, responsible
 ## Publications
 
 1. **Le, Vu Anh** and Dik, Mehmet, “A Mathematical Analysis of Neural Operator Behaviors,” Chapter 23 in *[Advances in Quantum Calculus and Functional Analysis](https://www.routledge.com/Quantum-Calculus-and-Functional-Analysis-with-Applications/Hazarika-Tikare-Dik-Chalishajar/p/book/9781041014478)*, Taylor & Francis Group, July 2025.
-
-## A fun fact 
-
-<p align="center">
-  <img src="./assets/img/concentration_phenomenon.png" alt="Concentration of Measure Phenomenon" width="600"/>
-</p>
-
-Why studying geometry is fundamental to the advances of multimodal AI? Let's consider this fun fact. In high-dimensional spaces, distances between points become nearly similar. This reshapes how similarity and structure should be interpreted in learned representations. This phenomenon, named Concentration of Measure, is important to data geometry in AGI because it explains why naive notions of distance fail. That's why it motivates the need for structured, constraint-aware representations that preserve meaningful variation.
