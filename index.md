@@ -26,4 +26,4 @@ My work lies at the intersection of constrained generative modeling, responsible
 
 ## Publications
 
-1. **Le, Vu Anh** and Dik, Mehmet, “A Mathematical Analysis of Neural Operator Behaviors,” Chapter 23 in *[Advances in Quantum Calculus and Functional Analysis](https://www.routledge.com/Quantum-Calculus-and-Functional-Analysis-with-Applications/Hazarika-Tikare-Dik-Chalishajar/p/book/9781041014478)*, Taylor & Francis Group, July 2025.
+Please view my [Google Scholar](https://scholar.google.com/citations?user=v3_DrtcAAAAJ&hl=en) profile for latest publication update.
