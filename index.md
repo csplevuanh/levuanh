@@ -6,6 +6,8 @@ layout: homepage
 
 I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I'm honored to be fully supported by the UVA Computer Science Scholar Fellowship. I hold a B.Sc. in Mathematics from Beloit College.
 
+**My research develops safe generative AI by embedding constraints directly into models to guarantee robustness, fairness, and alignment with human values.**
+
 I'm also interested in collaborative and open-source AI safety research, and I'm always happy to connect with others working on related problems.
 
 ## Research Interests
