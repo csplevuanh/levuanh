@@ -10,11 +10,11 @@ I'm also interested in collaborative and open-source AI safety research, and I'm
 
 ## Research Interests
 
-My work focuses on **Safe AI**, developing generative models that are inherently verifiable, aligned, and robust by design. At the core of this effort lies *constrained generative modeling*—embedding geometric, physical, and behavioral constraints directly into the generative process (via latent space design, decoding mechanisms, or optimization) to guarantee safety properties from the ground up.
+My work focuses on **Safe AI**, developing generative models that are inherently verifiable, aligned, and robust by design. I am primarily using *constrained generative modeling* - the process of embedding geometric, physical, and behavioral constraints directly into the generative process (via latent space design, decoding mechanisms, or optimization) to guarantee safety properties from the ground up.
 
 **Safe-by-Design Generative AI:** I enforce constraints (e.g., invariance, monotonicity, physical laws) during training or inference of diffusion models, flow matching, and LLMs. This includes designing latent spaces and decoding mechanisms that provably satisfy safety constraints, as well as efficient training and post‑training methods (including RL‑based fine‑tuning) that reduce unpredictability and computational overhead.
 
-**Robustness & Fairness as Safety Prerequisites:** I view fairness, robustness, and interpretability as essential pillars of safe AI. By integrating explicit constraints, I improve model reliability under distribution shift, mitigate harmful biases, and make outputs transparent and auditable—especially in high‑stakes scientific and engineering settings.
+**Robustness & Fairness as Safety Prerequisites:** I view fairness, robustness, and interpretability as essential pillars of safe AI. By integrating explicit constraints, I improve model reliability under distribution shift, mitigate harmful biases, and make outputs transparent and auditable, especially in high‑stakes scientific and engineering settings.
 
 **AI Safety & Societal Risk Mitigation:** I investigate how structural and fairness constraints directly prevent harmful behaviors (e.g., reward hacking, goal misgeneralization, unsafe outputs) and ensure long‑term alignment with human values. This direction analyzes secure deployment strategies to minimize systemic risks, from adversarial vulnerabilities to unintended societal impacts, keeping AI systems beneficial and controllable.
 
