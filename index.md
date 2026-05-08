@@ -6,36 +6,37 @@ layout: homepage
 
 I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I am honored to be awarded the UVA CS Scholar fellowship to support my PhD studies. I earned my BSc in Mathematics from Beloit College.
 
-**My research focuses on constrained generative models and their application to challenging operations research problems. I build architectures that embed hard operational constraints – such as capacity limits, staffing regulations, service-level agreements, and resource budgets – directly into the generative process, so that every output is a provably feasible and actionable decision.**
+**My research focuses on safe and frontier generative models and their applications across mathematics, sciences, and engineering. I aim to build generative systems—such as diffusion models, large language models, and hybrid architectures—that are not only powerful and scalable but also reliable, verifiable, and aligned with domain-specific constraints. From generating provably correct mathematical proofs and theorem derivations to designing novel molecules, materials, or engineering systems under physical and safety constraints, my goal is to push the boundaries of generative AI while ensuring trustworthiness and correctness in high-stakes scientific and engineering tasks.**
 
-I’m interested in the intersection of deep generative modeling, constrained optimization, and prescriptive analytics. I’m always happy to connect with others working on AI for operations, data‑driven decision‑making under constraints, or trustworthy machine learning.
-
+I’m broadly interested in the intersection of deep generative modeling, formal verification, constrained optimization, and scientific computing. I’m always happy to connect with others working on safe AI, generative models for science, or trustworthy machine learning in technical domains.
 
 # Research
 
-Generative models have achieved tremendous fluency in producing text, images, and code, but when deployed for operational decision‑making, fluency is not enough. A generated shift schedule that violates labor laws, a supply‑chain scenario that ignores warehouse capacities, or a pricing policy that breaks anti‑discrimination rules is worthless. Real‑world operations demand feasibility, not just plausibility.
+Frontier generative models—such as diffusion models, LLMs, and neural samplers—have demonstrated remarkable abilities to produce complex, high-dimensional outputs. However, deploying them in mathematics, the sciences, and engineering demands more than just fluency or novelty. A generated protein structure that violates biophysical laws, a symbolic mathematical derivation that contradicts axioms, or a material design that fails fundamental stability criteria is not just unhelpful—it is potentially misleading or dangerous. Safety, in these settings, means guaranteeing that generative outputs respect known constraints, physical laws, and domain-specific correctness criteria.
 
-My research develops generative models that solve operations research problems **under hard constraints** – guaranteeing that every generated candidate is a valid, implementable decision with respect to all operational requirements. Instead of relying on post‑hoc filtering or verification, I design architectures where constraint satisfaction is a structural property of the generative process itself. The goal is AI that operations managers, supply chain directors, and healthcare administrators can trust to return only certified, feasible solutions.
+My research develops **safe and frontier generative models**: architectures and algorithms that combine the expressivity of state-of-the-art generative AI with rigorous guarantees of feasibility, correctness, and robustness. Rather than treating safety as an afterthought (e.g., post-hoc filtering or verification), I embed constraints and correctness properties directly into the generative process—whether through constrained sampling trajectories, certified neural layers, or verifiable generation protocols. The ultimate aim is to enable domain scientists and engineers to deploy generative AI with confidence, knowing that every output is both innovative and reliable.
 
 ## Core Directions
 
-**1. Constrained Generative Architectures**  
-I develop diffusion‑based and autoregressive generative models that directly enforces constraints (e.g., capacity ceilings, fairness bounds, regulatory mandates) into their sampling trajectories. Drawing on stochastic optimal control, score‑based modeling, and constraint‑embedding techniques, these architectures produce decisions that are feasible *by construction* – not just at the terminal output, but throughout the entire generation trajectory.
+**1. Constrained and Safe Generative Architectures**  
+I develop diffusion-based, autoregressive, and flow-based generative models that incorporate hard constraints—physical laws, conservation principles, symmetry requirements, boundary conditions, logical consistency rules, and safety specifications—directly into their sampling or decoding dynamics. Drawing on stochastic optimal control, constrained Bayesian inference, and differentiable optimization, these architectures produce outputs that are feasible *by construction*, not just on average.
 
-**2. Correctness and Feasibility Guarantees for Generated Decisions**  
-I establish finite‑sample guarantees on constraint violation rates using tools from conformal prediction, robust optimization, and distribution‑free verification.ication. These guarantees provide rigorous certificates that a generated operational plan satisfies all hard constraints with high probability, even under distribution shift and without requiring unrealistic assumptions on the underlying data distribution.
+**2. Formal Guarantees for Generative Outputs**  
+I establish rigorous, finite-sample certificates of constraint satisfaction and correctness using methods from conformal prediction, robust optimization, distribution-free verification, and neural network certification. These guarantees enable generative models to be used in high-stakes scientific and engineering workflows—where an undetected violation could invalidate an experiment, a design, or a proof—without relying on unrealistic assumptions about the data distribution.
 
-**3. Applications Across Challenging Operations Research Domains**  
-I am driven by real-life operations research problems: **finance**, **healthcare**, **supply chain**, **platform operations**, etc. 
+**3. Applications Across Mathematics, Sciences, and Engineering**  
+I am driven by real-world problems where generative AI can accelerate discovery and design, but only if safety is guaranteed. Example domains include:
+- **Mathematics**: Generating symbolic proofs, counterexamples, or conjectures with logical consistency guarantees.
+- **Sciences**: Inverse molecular design, protein engineering, materials discovery, and physics-informed generative modeling (e.g., PDE-constrained generation).
+- **Engineering**: Certifiable design optimization, control synthesis, and AI-assisted simulation under safety and operational constraints.
 
 ## Why This Matters
 
-Operations research has spent decades developing the mathematics of optimal decision‑making under constraints. Generative AI, for all its expressivity, still lacks a native ability to respect those constraints. My work bridges these two traditions: embedding the rigor of constrained optimization directly into the architecture of modern generative models. The result is AI that operations leaders can deploy with confidence – systems whose outputs are not merely suggestive, but *certifiably executable*.
-
+The mathematical and empirical sciences are undergoing a transformation driven by generative AI, yet the community still lacks a principled framework for ensuring that generated outputs are *correct* and *safe* in technical contexts. My research bridges the gap between frontier generative modeling and formal methods from optimization, verification, and scientific computing. The result is a new class of generative AI systems that mathematicians, scientists, and engineers can trust to not only create but also certify—unlocking powerful new tools for discovery, design, and decision-making in the physical and mathematical worlds.
 
 # News
 
-- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia, focusing on constrained generative models as part of the RAISE group!
+- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia, focusing on generative models as part of the RAISE group!
 
 ## Publications
 
