@@ -12,7 +12,7 @@ I’m broadly interested in the intersection of deep generative modeling, formal
 
 # Research
 
-Frontier generative models - such as diffusion models, LLMs, and neural samplers - have demonstrated remarkable abilities to produce complex, high-dimensional outputs. However, deploying them in mathematics, the sciences, and engineering demands more than just fluency or novelty. A generated protein structure that violates biophysical laws, a symbolic mathematical derivation that contradicts axioms, or a material design that fails fundamental stability criteria is not just unhelpful—it is potentially misleading or dangerous. Safety, in these settings, means guaranteeing that generative outputs respect known constraints, physical laws, and domain-specific correctness criteria.
+Frontier generative models - such as diffusion models, LLMs, and neural samplers - have demonstrated remarkable abilities to produce complex, high-dimensional outputs. However, deploying them in mathematics, the sciences, and engineering demands more than just fluency or novelty. A generated protein structure that violates biophysical laws, a symbolic mathematical derivation that contradicts axioms, or a material design that fails fundamental stability criteria is not just unhelpful - it is potentially misleading or dangerous. Safety, in these settings, means guaranteeing that generative outputs respect known constraints, physical laws, and domain-specific correctness criteria.
 
 My research develops **safe and frontier generative models**: architectures and algorithms that combine the expressivity of state-of-the-art generative AI with rigorous guarantees of feasibility, correctness, and robustness. Rather than treating safety as an afterthought (e.g., post-hoc filtering or verification), I embed constraints and correctness properties directly into the generative process - whether through constrained sampling trajectories, certified neural layers, or verifiable generation protocols. The ultimate aim is to enable domain scientists and engineers to deploy generative AI with confidence, knowing that every output is both innovative and reliable.
 
@@ -32,7 +32,7 @@ I am driven by real-world problems where generative AI can accelerate discovery 
 
 ## Why This Matters
 
-The mathematical and empirical sciences are undergoing a transformation driven by generative AI, yet the community still lacks a principled framework for ensuring that generated outputs are *correct* and *safe* in technical contexts. My research bridges the gap between frontier generative modeling and formal methods from optimization, verification, and scientific computing. The result is a new class of generative AI systems that mathematicians, scientists, and engineers can trust to not only create but also certify—unlocking powerful new tools for discovery, design, and decision-making in the physical and mathematical worlds.
+The mathematical and empirical sciences are undergoing a transformation driven by generative AI, yet the community still lacks a principled framework for ensuring that generated outputs are *correct* and *safe* in technical contexts. My research bridges the gap between frontier generative modeling and formal methods from optimization, verification, and scientific computing. The result is a new class of generative AI systems that mathematicians, scientists, and engineers can trust to not only create but also certify - unlocking powerful new tools for discovery, design, and decision-making in the physical and mathematical worlds.
 
 # News
 
