@@ -26,7 +26,7 @@ I develop diffusion‑based and autoregressive generative models that directly e
 I establish finite‑sample guarantees on constraint violation rates using tools from conformal prediction, robust optimization, and distribution‑free verification.ication. These guarantees provide rigorous certificates that a generated operational plan satisfies all hard constraints with high probability, even under distribution shift and without requiring unrealistic assumptions on the underlying data distribution.
 
 **3. Applications Across Challenging Operations Research Domains**  
-I am driven by real-life operations research problems: **healthcare**, **supply chain resilience**, **revenue management**, **platform operations**, etc. 
+I am driven by real-life operations research problems: **finance**, **healthcare**, **supply chain**, **platform operations**, etc. 
 
 ## Why This Matters
 
