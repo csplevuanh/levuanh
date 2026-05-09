@@ -6,40 +6,51 @@ layout: homepage
 
 I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I am honored to be awarded the UVA CS Scholar fellowship to support my PhD studies. I earned my BSc in Mathematics from Beloit College.
 
-My research develops **constrained generative models for operations research and decision support**: architectures and algorithms that combine the expressivity of frontier generative AI - diffusion models, flow-based models, autoregressive systems, and neural samplers - with rigorous feasibility guarantees, finite-sample certificates, and robust uncertainty quantification. The goal is to make generative AI a reliable engine for prescriptive analytics: a system that decision-makers and operations managers can deploy with confidence, knowing that every generated scenario, design, or recommendation is both novel and operationally valid.
+My research develops **safe, verifiable, and robust generative models by design** - architectures and algorithms that embed geometric, physical, and behavioral constraints directly into the generative process. This includes diffusion models, flow matching, autoregressive LLMs, and neural samplers where safety properties (invariance, monotonicity, physical laws, fairness constraints) are guaranteed from the ground up through latent space design, decoding mechanisms, or optimization. The goal is to make generative AI not just expressive, but inherently aligned and trustworthy: a system that can be deployed in high-stakes scientific, engineering, and societal contexts with provable safety assurances and minimal unpredictability.
 
-I’m broadly interested in the intersection of deep generative modeling, constrained optimization, robust and stochastic programming, and certifiable AI for operations. I’m always happy to connect with others working on trustworthy generative AI, prescriptive analytics, or constraint-driven machine learning for engineering and decision support.
+I'm broadly interested in constrained generative modeling, robustness and fairness as prerequisites for safety, and AI alignment & societal risk mitigation. I’m always happy to connect with others working on safe AI, verifiable generative models, or the trustworthy deployment of machine learning systems.
 
 # Research
 
-Modern organizations face design, planning, and optimization problems of staggering complexity - from engineering systems that must satisfy physical and operational constraints, to supply chains that must remain feasible under deep uncertainty, to scientific workflows where a single infeasible output can invalidate an entire experiment or decision pipeline. Generative AI offers transformative potential to accelerate solution generation and scenario exploration in these settings. Yet current generative models produce outputs that routinely violate the hard constraints - physical laws, capacity limits, logical consistency requirements, regulatory specifications - that any operationally credible solution must satisfy. An infeasible design, an inconsistent scenario, or an uncertified recommendation is not just unhelpful: it can mislead decision-makers in exactly the high-stakes contexts where AI assistance is most needed.
+Modern generative AI - from diffusion models to large language models - produces remarkably realistic outputs, but remains notoriously difficult to control, verify, or align with hard safety requirements. Unconstrained models can violate physical laws, exhibit harmful biases, engage in reward hacking, or generalize goals in unintended and dangerous ways. As these systems are deployed in increasingly autonomous roles, the lack of built-in safety guarantees poses a systemic risk.
 
-My research bridges this gap by embedding feasibility, certification, and uncertainty quantification directly into the generative modeling pipeline. I build systems that generate diverse, high-quality, and provably valid solutions for complex operational problems - not through post-hoc filtering, but *by construction*.
+My research addresses this gap by treating safety not as an afterthought, but as a first-class design principle. I build generative models whose safety properties - robustness, fairness, alignment, and constraint satisfaction - are provably guaranteed *by construction*, not through brittle post-hoc filtering or heuristic guardrails.
 
 ## Core Research Directions
 
-### 1. Constrained Generative Models for Feasible Solution Generation
+### 1. Safe-by-Design Generative AI
 
-Classical approaches to combinatorial and continuous optimization generate solutions through search or mathematical programming. Generative models offer a fundamentally different paradigm: learning the *distribution* of high-quality, feasible solutions and sampling from it efficiently. I develop diffusion-based, flow-based, and autoregressive architectures that embed hard constraints - capacity limits, conservation laws, precedence requirements, logical consistency rules, safety specifications, and boundary conditions - directly into their sampling dynamics via stochastic optimal control, constrained Bayesian inference, and differentiable optimization layers. The result is a framework for **generative prescriptive analytics**: systems that produce diverse, high-quality, *feasible* candidates for complex operational decisions by construction, not by post-hoc filtering.
+I develop methods to enforce constraints (e.g., invariance, monotonicity, physical laws, logical consistency) directly during the training or inference of diffusion models, flow matching, and LLMs. This includes:
 
-Applications include feasibility-guaranteed scenario generation for stochastic programming, constraint-satisfying design space exploration in engineering and operations, and generative approaches to combinatorial optimization problems in scheduling, logistics, and resource allocation.
+- Designing latent spaces and decoding mechanisms that provably satisfy safety constraints
+- Efficient training and post‑training techniques (including RL‑based fine‑tuning) that reduce unpredictability and computational overhead while preserving expressivity
+- Integrating optimization layers and constrained Bayesian inference into generative sampling dynamics
 
-### 2. Distribution-Free Certification and Uncertainty Quantification
+The outcome is a family of generative models that are **verifiable and aligned from the ground up**, eliminating the need for expensive sampling‑time filtering or unreliable prompting strategies.
 
-Prescriptive systems that cannot certify the quality and reliability of their outputs are of limited operational value. I establish finite-sample, distribution-free guarantees on constraint satisfaction and output correctness using conformal prediction, robust optimization, and neural network verification. These methods provide decision-makers with rigorous, data-driven assurances - not asymptotic approximations - about the reliability of generative model outputs across the full distribution of operational scenarios, without requiring unrealistic parametric assumptions. This connects directly to the growing literature on **safe and robust optimization under uncertainty**, extending classical chance-constrained and distributionally robust programming frameworks to the setting where the solution generator is itself a learned model.
+### 2. Robustness & Fairness as Safety Prerequisites
 
-### 3. AI-Assisted Decision Support in Operations and Engineering Systems
+A model that is not robust or fair cannot be truly safe. I treat fairness, robustness to distribution shift, and interpretability as essential pillars of safe AI. My work integrates explicit constraints into model design and post‑training to:
 
-I am motivated by operations problems where the solution space is too vast for classical optimization, but where every recommended decision must satisfy hard operational requirements. Target domains include:
+- Improve reliability under adversarial or naturally occurring distribution shifts
+- Mitigate harmful biases and ensure equitable treatment across groups
+- Make model outputs transparent, auditable, and certifiable for high‑stakes applications (scientific simulations, engineering control, automated decision systems)
 
-- **Stochastic and robust optimization**: Generative models as efficient samplers for scenario generation, Benders decomposition acceleration, and warm-starting in two-stage and multi-stage stochastic programs
-- **Engineering operations**: Certifiable design optimization, control synthesis, and simulation-based optimization under safety and performance constraints - with applications to energy systems, manufacturing, and infrastructure
-- **Healthcare and scientific operations**: Generative approaches to treatment planning, experimental design, and resource allocation where feasibility is non-negotiable
-- **Supply chain and logistics**: Learning feasible solution distributions for large-scale combinatorial problems, enabling fast, reliable scenario-based planning under disruption
+These constraints serve as structural guarantees that directly support safety certification and regulatory compliance.
 
-## Why This Matters for Operations Research
+### 3. AI Safety & Societal Risk Mitigation
 
-Operations research has long been the discipline that bridges mathematical rigor and operational reality. The current wave of generative AI offers OR an extraordinary opportunity: these models can explore solution spaces, generate scenarios, and support decisions at scales that classical methods struggle to reach. But realizing this potential requires solving the fundamental problem that OR has always cared about most - **guaranteeing that solutions are feasible and recommendations are reliable**. My research provides the theoretical and algorithmic foundations to deploy generative AI as a trustworthy tool in the OR toolkit, transforming it from a black-box approximator into a certifiable, constraint-respecting engine for discovery and decision support.
+Beyond technical constraints, I investigate how structural and fairness‑aware design prevents high‑level harmful behaviors such as reward hacking, goal misgeneralization, and unsafe outputs. This direction includes:
+
+- Analyzing secure deployment strategies to minimize systemic risks, from adversarial vulnerabilities to unintended societal impacts
+- Developing alignment techniques that keep generative AI beneficial and controllable as models scale in capability and autonomy
+- Bridging formal verification, fairness auditing, and risk assessment to provide holistic safety guarantees
+
+The ultimate aim is to ensure that generative AI systems remain aligned with human values and operational requirements, even when deployed in novel or adversarially chosen environments.
+
+## Why This Matters for AI Safety
+
+AI safety has moved from a theoretical concern to an urgent engineering challenge. Generative models are already being trusted with scientific discovery, automated decision support, and real‑world control tasks - yet we lack systematic methods to certify that they will not produce unsafe outputs, amplify biases, or pursue misaligned goals. My research provides the theoretical and algorithmic foundations to build **safe‑by‑design generative AI**: models whose safety properties are guaranteed, not hoped for. This transforms generative AI from a black‑box approximator into a verifiable, control‑aware, and trustworthy tool - essential for high‑stakes deployment in science, engineering, and society.
 
 # News
 
