@@ -56,6 +56,6 @@ AI safety has moved from a theoretical concern to an urgent engineering challeng
 
 - **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia, focusing on generative models as part of the RAISE group!
 
-## Publications
+# Publications
 
 Please view my [Google Scholar](https://scholar.google.com/citations?user=v3_DrtcAAAAJ&hl=en) profile for the latest updates.
