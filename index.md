@@ -6,55 +6,55 @@ layout: homepage
 
 I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I am honored to be awarded the UVA CS Scholar fellowship to support my PhD studies. I earned my BSc in Mathematics from Beloit College.
 
-My research develops **safe, verifiable, and robust generative models by design** - architectures and algorithms that embed geometric, physical, and behavioral constraints directly into the generative process. This includes diffusion models, flow matching, autoregressive LLMs, and neural samplers where safety properties (invariance, monotonicity, physical laws, fairness constraints) are guaranteed from the ground up through latent space design, decoding mechanisms, or optimization. The goal is to make generative AI not just expressive, but inherently aligned and trustworthy: a system that can be deployed in high-stakes scientific, engineering, and societal contexts with provable safety assurances and minimal unpredictability.
+My research develops **constrained generative models for mechanical applications** - architectures and algorithms that embed geometric, physical, and behavioral constraints directly into the generative process. I build diffusion models, flow matching, and related frameworks where safety properties are guaranteed from the ground up. The goal is to make generative AI a trusted tool for mechanical engineering: systems that are inherently safe, physically realizable, and ready for deployment in robotics, materials design, automation, and control.
 
-I'm broadly interested in constrained generative modeling, robustness and fairness as prerequisites for safety, and AI alignment & societal risk mitigation. I’m always happy to connect with others working on safe AI, verifiable generative models, or the trustworthy deployment of machine learning systems.
+I'm broadly interested in constrained generative modeling, embodied AI, and the integration of generative methods with cyber‑physical systems. I’m always happy to connect with researchers working on physics‑informed generative models, safety‑critical control, or trustworthy AI for engineering.
 
 # Research
 
-Modern generative AI - from diffusion models to large language models - produces remarkably realistic outputs, but remains notoriously difficult to control, verify, or align with hard safety requirements. Unconstrained models can violate physical laws, exhibit harmful biases, engage in reward hacking, or generalize goals in unintended and dangerous ways. As these systems are deployed in increasingly autonomous roles, the lack of built-in safety guarantees poses a systemic risk.
+Modern generative AI can produce remarkably realistic designs, motions, and control policies, yet it often ignores the hard physical and safety constraints that govern real‑world mechanical systems. Unconstrained models may synthesize structurally impossible materials, unsafe robot trajectories, or controllers that violate actuator limits - failures that are unacceptable in engineering practice.
 
-My research addresses this gap by treating safety not as an afterthought, but as a first-class design principle. I build generative models whose safety properties - robustness, fairness, alignment, and constraint satisfaction - are provably guaranteed *by construction*, not through brittle post-hoc filtering or heuristic guardrails.
+My research treats physical and safety constraints as **first‑class design principles**. I build generative models whose compliance with mechanical laws and performance specifications is *provably guaranteed by construction*, not enforced through brittle post‑hoc filters.
 
 ## Core Research Directions
 
-### 1. Safe-by-Design Generative AI
+### 1. Safe‑by‑Design Constrained & Embodied Architectures
 
-I develop methods to enforce constraints (e.g., invariance, monotonicity, physical laws, logical consistency) directly during the training or inference of diffusion models, flow matching, and LLMs. This includes:
+I develop generative models (diffusion, flow matching, autoregressive variants) where physical, geometric, and safety constraints are embedded directly into training and inference. This includes:
 
-- Designing latent spaces and decoding mechanisms that provably satisfy safety constraints
-- Efficient training and post‑training techniques (including RL‑based fine‑tuning) that reduce unpredictability and computational overhead while preserving expressivity
-- Integrating optimization layers and constrained Bayesian inference into generative sampling dynamics
+- Designing physics‑informed latent spaces and constrained decoding mechanisms that provably satisfy invariance, monotonicity, energy conservation, and manufacturing limits.
+- Encoding embodiment constraints (robot kinematics, spatial compatibility, material interfaces) so that generated outputs are immediately executable in the physical world.
+- Integrating optimization layers and model‑based verification into the generative sampling process.
 
-The outcome is a family of generative models that are **verifiable and aligned from the ground up**, eliminating the need for expensive sampling‑time filtering or unreliable prompting strategies.
+The result is a family of embeddings that are **verifiable and physically grounded from the start**, eliminating the dangerous gap between a generated proposal and its real‑world feasibility.
 
-### 2. Robustness & Fairness as Safety Prerequisites
+### 2. Generation for Mechanical Systems
 
-A model that is not robust or fair cannot be truly safe. I treat fairness, robustness to distribution shift, and interpretability as essential pillars of safe AI. My work integrates explicit constraints into model design and post‑training to:
+I apply constrained generative techniques to core problems in mechanical engineering:
 
-- Improve reliability under adversarial or naturally occurring distribution shifts
-- Mitigate harmful biases and ensure equitable treatment across groups
-- Make model outputs transparent, auditable, and certifiable for high‑stakes applications (scientific simulations, engineering control, automated decision systems)
+- **Robotics:** Synthesizing motion plans and control policies that strictly respect collision, torque, and velocity bounds — with certifiable safety envelopes.
+- **Materials Science:** Designing microstructures, composites, and metamaterials with targeted mechanical, thermal, or acoustic properties, while respecting manufacturability constraints.
+- **Automation & Control:** Generating feedback controllers and sequential decision strategies that remain within actuation limits, latency budgets, and dynamic feasibility regions.
 
-These constraints serve as structural guarantees that directly support safety certification and regulatory compliance.
+In each application, the generative model acts as a co‑designer that internalizes the physics, allowing engineers to explore large design spaces without violating critical constraints.
 
-### 3. AI Safety & Societal Risk Mitigation
+### 3. Bridging Generative AI and Physical Reality
 
-Beyond technical constraints, I investigate how structural and fairness‑aware design prevents high‑level harmful behaviors such as reward hacking, goal misgeneralization, and unsafe outputs. This direction includes:
+I investigate how constrained generative pipelines can become the intelligence backbone of **cyber‑physical systems**. This direction focuses on:
 
-- Analyzing secure deployment strategies to minimize systemic risks, from adversarial vulnerabilities to unintended societal impacts
-- Developing alignment techniques that keep generative AI beneficial and controllable as models scale in capability and autonomy
-- Bridging formal verification, fairness auditing, and risk assessment to provide holistic safety guarantees
+- Coupling learned generative priors with classical model‑based control for real‑time, safe decision‑making.
+- Developing runtime constraint‑monitoring frameworks that verify generated plans before execution.
+- Building unified tools where generative AI assists in co‑designing hardware, software, and control policies under a single set of physical and safety requirements.
 
-The ultimate aim is to ensure that generative AI systems remain aligned with human values and operational requirements, even when deployed in novel or adversarially chosen environments.
+The long‑term vision is a tightly integrated loop where generative models, physical simulators, and verification engines work together to accelerate innovation in mechanical engineering - safely and reliably.
 
-## Why This Matters for AI Safety
+## Why This Matters
 
-AI safety has moved from a theoretical concern to an urgent engineering challenge. Generative models are already being trusted with scientific discovery, automated decision support, and real‑world control tasks - yet we lack systematic methods to certify that they will not produce unsafe outputs, amplify biases, or pursue misaligned goals. My research provides the theoretical and algorithmic foundations to build **safe‑by‑design generative AI**: models whose safety properties are guaranteed, not hoped for. This transforms generative AI from a black‑box approximator into a verifiable, control‑aware, and trustworthy tool - essential for high‑stakes deployment in science, engineering, and society.
+Mechanical engineering is entering an era where AI‑driven design and autonomous operation are becoming a reality. Yet without built‑in constraints, generative models risk proposing solutions that are physically impossible or outright dangerous. My research provides the algorithmic foundations to turn generative AI into a **trusted engineering partner**: one that speaks the language of physics, respects safety limits, and empowers engineers to push the boundaries of what can be designed, built, and controlled.
 
 # News
 
-- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia, focusing on generative models as part of the RAISE group!
+- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia, focusing on physical generative models as part of the RAISE group!
 
 # Publications
 
