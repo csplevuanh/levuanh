@@ -6,7 +6,7 @@ layout: homepage
 
 I am an incoming Ph.D. student in Computer Science at the University of Virginia, advised by Prof. [Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the [Responsible AI for Science and Engineering (RAISE)](https://nandofioretto.github.io/) group. I am honored to be awarded the **UVA CS Scholar Fellowship**. I earned my B.Sc. in Mathematics from Beloit College.
 
-My research develops **constrained generative models for science and engineering** - architectures and algorithms that embed physical, safety, and operational constraints directly into the generative process, making AI a provably reliable tool for mechanical engineering, robotics, materials design, and cyber-physical control.
+My research develops **constrained generative models** - architectures and algorithms that embed physical, safety, and operational constraints directly into the generative process, making AI a provably reliable tool for decision-making and cyber-physical control.
 
 I am broadly interested in constrained generative modeling, end-to-end optimization, and responsible AI for high-stakes systems. I am always happy to connect with researchers working on physics-informed generative models, safety-critical control, or trustworthy AI for engineering.
 
