@@ -12,6 +12,8 @@ I am broadly interested in constrained projection, responsible AI, and AI safety
 
 # Research
 
+![World Action Models Framework](assets/img/wam.png)
+
 Modern generative and foundation models can produce remarkably realistic designs, dynamics, and action policies - yet they often ignore the hard physical and safety constraints that govern real-world systems. Unconstrained models may hallucinate impossible physics, propose unsafe robot behaviors, or generate action sequences that violate actuator limits. In engineering practice, these failures are unacceptable.
 
 My research treats physical laws and safety specifications as **first-class design principles**. I build generative architectures whose compliance with physics and safety is *guaranteed by construction*, not enforced through brittle filtering. This program spans four model classes, each addressing a different layer of the gap between learned models and physical reality.
