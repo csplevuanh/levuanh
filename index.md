@@ -4,45 +4,39 @@ layout: homepage
 
 # About Me
 
-I'm an incoming Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I am honored to be awarded the UVA CS Scholar fellowship to support my PhD studies. I earned my BSc in Mathematics from Beloit College.
+I'm a Ph.D. student in Computer Science at the University of Virginia, advised by [Prof. Ferdinando Fioretto](https://nandofioretto.github.io/) as part of the **Responsible AI for Science and Engineering (RAISE)** group. I am honored to be awarded the UVA CS Scholar fellowship to support my PhD studies. I earned my BSc in Mathematics from Beloit College.
 
-My research develops **safe and constrained generative models** for science and engineering - building systems that learn how the physical world behaves and how to act within it, while *provably* respecting the laws of physics, safety envelopes, and engineering constraints. I work across four model classes: **physics-informed machine learning**, **world models**, **large action models**, and **world action models**, under a single principle - *constraints are first-class properties of the generative process, not post-hoc corrections*.
-
-I am broadly interested in constrained projection, responsible AI, and AI safety, with applications in robotics, materials design, and cyber-physical systems. I'm always happy to connect with researchers working on physics-informed generative models, safe embodied AI, or trustworthy foundation models for engineering.
+My research develops **safe and constrained world action models** - building systems that learn how the physical world behaves and how to act within it, while *provably* respecting physical laws, safety envelopes, and engineering constraints. As a result, I am broadly interested in constrained projection, responsible AI, and AI safety, with applications in robotics, autonomous systems, and cyber-physical systems. I am always happy to connect with researchers working on physics-informed generative models, safe embodied AI, or trustworthy foundation models for engineering.
 
 # Research
 
 ![World Action Models Framework](assets/img/wam.png)
 
-Modern generative and foundation models can produce remarkably realistic designs, dynamics, and action policies - yet they often ignore the hard physical and safety constraints that govern real-world systems. Unconstrained models may hallucinate impossible physics, propose unsafe robot behaviors, or generate action sequences that violate actuator limits. In engineering practice, these failures are unacceptable.
+My research addresses a critical gap in the modern generative and foundation models: they are capable, but not *safe by construction*. A world model that ignores physical constraints can hallucinate impossible dynamics. An action model that lacks safety guarantees can propose behavior that is immediately harmful in deployment. In engineering and physical AI, these failures are not acceptable.
 
-My research treats physical laws and safety specifications as **first-class design principles**. I build generative architectures whose compliance with physics and safety is *guaranteed by construction*, not enforced through brittle filtering. This program spans four model classes, each addressing a different layer of the gap between learned models and physical reality.
+I treat **physical laws and safety specifications as first-class design principles** - building generative architectures whose compliance with physics and safety is guaranteed by construction, not enforced through brittle post-hoc filtering. This program spans three interconnected research directions.
 
-## Core Research Directions
+## Research Directions
 
-### 1. Physics-Informed Machine Learning
+### Constrained Generative World Action Models
 
-I design learning architectures that internalize physical laws - conservation principles, symmetries, PDE structure, and material constraints - as *hard* inductive biases rather than soft regularizers. This includes constrained projection layers, structure-preserving neural operators, and physics-informed latent spaces whose outputs are provably consistent with governing equations. The goal is to make physics a property of the *model*, not a property of the loss.
+World Action Models (WAMs) represent a paradigm shift in embodied AI: rather than learning direct observation-to-action mappings, they jointly model how the physical world evolves and how to act within it. My work focuses on am open problem this paradigm has not yet addressed - **how to make world action models formally safe**. I investigate architectures and learning frameworks in which constraint satisfaction is embedded into the generative process itself, so that predicted futures and generated actions are certified feasible before execution. The goal is a class of world action models whose safety properties can be formally characterized and communicated to downstream systems.
 
-### 2. World Models
+### Safe Planning and Decision-Making Under Constraints
 
-I develop generative models of environment dynamics that are **physically grounded and safety-aware**. Rather than learning unconstrained latent dynamics, my world models embed invariances (energy, momentum, monotonicity), respect manifold structure, and expose certifiable safety envelopes. This makes them reliable substrates for downstream planning, control, and counterfactual reasoning in safety-critical settings.
+Physical AI systems do not operate in isolation. Robots share workspaces, vehicles share roads, and autonomous agents increasingly must coordinate in environments where individual decisions have interdependent consequences. I study how constrained world models can serve as a substrate for **safe planning and multi-agent decision-making** - enabling agents to reason about the physical evolution of their shared environment, anticipate the actions of others, and arrive at coordinated behavior that respects joint safety constraints. I am interested in both the theoretical foundations of this problem and in scalable methods that operate under the partial observability and communication constraints of real deployments.
 
-### 3. Large Action Models
+### Constraint-Aware Embodied Foundation Models
 
-I investigate how to scale safe generative principles to **foundation models for sequential decision-making**. As large action models emerge as general-purpose policies across robotics, automation, and control, the central question is how to retain certifiable safety and constraint satisfaction at scale. I work on constrained decoding, optimization-layer integration, and verification-aware training schemes that turn large action models into *trustworthy* engineering agents rather than capable but uncertifiable ones.
-
-### 4. World Action Models
-
-I study how to *act* within learned worlds - coupling environment understanding with constrained action synthesis for embodied agents. My work focuses on action-conditioned generative models (diffusion policies, flow-matching controllers, autoregressive action transformers) that respect kinematic limits, collision constraints, and dynamic feasibility *at sampling time*. The expected result is embodied behavior that is immediately executable in the physical world, with safety guarantees baked into the generative process itself.
+Embodied foundation models - large-scale pre-trained systems for robot perception and control - are showing impressive generalization across tasks and environments. My work examines how to make these models **trustworthy at deployment time**: how to specify safety constraints precisely, how to adapt foundation models to new constraint sets efficiently, and how to provide formal assurances that a deployed policy satisfies its safety specification in a target environment. I am particularly interested in the gap between empirical generalization and certified safety - and in building the tools that close it.
 
 ## Why This Matters
 
-Science and engineering are entering an era where generative AI co-designs materials, drives robots, and closes the loop on cyber-physical systems. Without built-in constraints, these models risk proposing solutions that are physically impossible or outright dangerous. My research provides the algorithmic foundations to make generative AI a **trusted partner**: one that speaks the language of physics, respects safety limits, and empowers engineers and scientists to push what can be designed, simulated, and controlled - responsibly.
+Physical AI is moving rapidly from research demonstration to real-world deployment - in hospitals, factories, roads, and homes. The generative models driving this transition are capable days by days, but capability without certified safety is insufficient for safety-critical environments. My research builds the algorithmic foundations for Physical AI systems that are not only capable, but **formally trustworthy**: systems that speak the language of physics, respect safety limits, and give engineers and operators the formal assurances they need to deploy with confidence.
 
 # News
 
-- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia, focusing on safe and constrained generative models as part of the RAISE group!
+- **[Aug. 2026]** Starting my Ph.D. in Computer Science at the University of Virginia as part of the RAISE group!
 
 # Publications
 
