@@ -12,13 +12,13 @@ I'm a Ph.D. student in Computer Science at the University of Virginia, advised b
 
 ![World Action Models Framework](assets/img/wam.png)
 
-My research focuses on safe generative AI and its apps in physical/engineering sciences. I develop learning systems that are not only capable but trustworthy by design - systems where physical laws, engineering constraints, and safety limits are embedded directly into the generative process, rather than enforced afterward. I pursue this vision across the following domains:
-
-- **Materials science:** generating novel materials and molecules under stability, synthesizability, and property constraints.
+My research focuses on safe generative AI and its apps in physical/engineering sciences. I develop learning systems that are not only capable but trustworthy by design - systems where physical laws, engineering constraints, and safety limits are embedded directly into the generative process, rather than enforced afterward. I am interested in applying the results of my research in the following areas:
 
 - **Autonomous agents & decision-making:** safe planning and control with formal guarantees, especially in multi-agent or human-shared environments.
 
 - **World modeling:** learning and simulating physically consistent environment dynamics for autonomous systems and beyond.
+
+- **Scientific discovery / materials science:** generating novel materials and molecules under stability, synthesizability, and property constraints.
 
 I’m always happy to connect with researchers working in the same direction.
 
