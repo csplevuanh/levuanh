@@ -18,7 +18,7 @@ My research focuses on safe generative AI and the physical/engineering sciences.
 
 - **Autonomous agents & decision-making:** safe planning and control with formal guarantees, especially in multi-agent or human-shared environments.
 
-- **World modeling:** - learning and simulating physically consistent environment dynamics for autonomous systems and beyond.
+- **World modeling:** learning and simulating physically consistent environment dynamics for autonomous systems and beyond.
 
 - **Mentally challenging tasks:** solving theoretical problems (like math) with scarce data, where generative models must respect logical, physical, or structural constraints.
 
