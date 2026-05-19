@@ -20,8 +20,6 @@ My research focuses on safe generative AI and its apps in physical/engineering s
 
 - **World modeling:** learning and simulating physically consistent environment dynamics for autonomous systems and beyond.
 
-- **Mentally challenging tasks:** solving theoretical problems (like math) with scarce data, where generative models must respect logical, physical, or structural constraints.
-
 I’m always happy to connect with researchers working in the same direction.
 
 # News
